@@ -1,0 +1,3513 @@
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]      -   no      -       -       -       0       0
+[01]      -   no      -       -       -       0       0
+[02]      -   no      -       -       -       0       0
+[03]      -   no      -       -       -       0       0
+
+=== Request r1 @ t=0 ===
+Page 1 given frame 0
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]      -   no      -       -       -       0       0
+[01]    mem   no      0       0       0       1       0
+[02]      -   no      -       -       -       0       0
+[03]      -   no      -       -       -       0       0
+
+=== Request r2 @ t=1 ===
+Page 2 given frame 1
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]      -   no      -       -       -       0       0
+[01]    mem   no      0       0       0       1       0
+[02]    mem   no      1       1       1       1       0
+[03]      -   no      -       -       -       0       0
+
+=== Request r0 @ t=2 ===
+Page 0 given frame 2
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem   no      2       2       2       1       0
+[01]    mem   no      0       0       0       1       0
+[02]    mem   no      1       1       1       1       0
+[03]      -   no      -       -       -       0       0
+
+=== Request r0 @ t=3 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem   no      2       3       2       2       0
+[01]    mem   no      0       0       0       1       0
+[02]    mem   no      1       1       1       1       0
+[03]      -   no      -       -       -       0       0
+
+=== Request w2 @ t=4 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem   no      2       3       2       2       0
+[01]    mem   no      0       0       0       1       0
+[02]    mem  yes      1       4       1       1       1
+[03]      -   no      -       -       -       0       0
+
+=== Request r3 @ t=5 ===
+Page 3 given frame 3
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem   no      2       3       2       2       0
+[01]    mem   no      0       0       0       1       0
+[02]    mem  yes      1       4       1       1       1
+[03]    mem   no      3       5       5       1       0
+
+=== Request r3 @ t=6 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem   no      2       3       2       2       0
+[01]    mem   no      0       0       0       1       0
+[02]    mem  yes      1       4       1       1       1
+[03]    mem   no      3       6       5       2       0
+
+=== Request r3 @ t=7 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem   no      2       3       2       2       0
+[01]    mem   no      0       0       0       1       0
+[02]    mem  yes      1       4       1       1       1
+[03]    mem   no      3       7       5       3       0
+
+=== Request r3 @ t=8 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem   no      2       3       2       2       0
+[01]    mem   no      0       0       0       1       0
+[02]    mem  yes      1       4       1       1       1
+[03]    mem   no      3       8       5       4       0
+
+=== Request r1 @ t=9 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem   no      2       3       2       2       0
+[01]    mem   no      0       9       0       2       0
+[02]    mem  yes      1       4       1       1       1
+[03]    mem   no      3       8       5       4       0
+
+=== Request w1 @ t=10 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem   no      2       3       2       2       0
+[01]    mem  yes      0      10       0       2       1
+[02]    mem  yes      1       4       1       1       1
+[03]    mem   no      3       8       5       4       0
+
+=== Request w2 @ t=11 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem   no      2       3       2       2       0
+[01]    mem  yes      0      10       0       2       1
+[02]    mem  yes      1      11       1       1       2
+[03]    mem   no      3       8       5       4       0
+
+=== Request r1 @ t=12 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem   no      2       3       2       2       0
+[01]    mem  yes      0      12       0       3       1
+[02]    mem  yes      1      11       1       1       2
+[03]    mem   no      3       8       5       4       0
+
+=== Request w1 @ t=13 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem   no      2       3       2       2       0
+[01]    mem  yes      0      13       0       3       2
+[02]    mem  yes      1      11       1       1       2
+[03]    mem   no      3       8       5       4       0
+
+=== Request r3 @ t=14 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem   no      2       3       2       2       0
+[01]    mem  yes      0      13       0       3       2
+[02]    mem  yes      1      11       1       1       2
+[03]    mem   no      3      14       5       5       0
+
+=== Request r3 @ t=15 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem   no      2       3       2       2       0
+[01]    mem  yes      0      13       0       3       2
+[02]    mem  yes      1      11       1       1       2
+[03]    mem   no      3      15       5       6       0
+
+=== Request w1 @ t=16 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem   no      2       3       2       2       0
+[01]    mem  yes      0      16       0       3       3
+[02]    mem  yes      1      11       1       1       2
+[03]    mem   no      3      15       5       6       0
+
+=== Request w0 @ t=17 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      17       2       2       1
+[01]    mem  yes      0      16       0       3       3
+[02]    mem  yes      1      11       1       1       2
+[03]    mem   no      3      15       5       6       0
+
+=== Request r0 @ t=18 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      18       2       3       1
+[01]    mem  yes      0      16       0       3       3
+[02]    mem  yes      1      11       1       1       2
+[03]    mem   no      3      15       5       6       0
+
+=== Request r0 @ t=19 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      19       2       4       1
+[01]    mem  yes      0      16       0       3       3
+[02]    mem  yes      1      11       1       1       2
+[03]    mem   no      3      15       5       6       0
+
+=== Request r3 @ t=20 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      19       2       4       1
+[01]    mem  yes      0      16       0       3       3
+[02]    mem  yes      1      11       1       1       2
+[03]    mem   no      3      20       5       7       0
+
+=== Request w1 @ t=21 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      19       2       4       1
+[01]    mem  yes      0      21       0       3       4
+[02]    mem  yes      1      11       1       1       2
+[03]    mem   no      3      20       5       7       0
+
+=== Request w1 @ t=22 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      19       2       4       1
+[01]    mem  yes      0      22       0       3       5
+[02]    mem  yes      1      11       1       1       2
+[03]    mem   no      3      20       5       7       0
+
+=== Request r1 @ t=23 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      19       2       4       1
+[01]    mem  yes      0      23       0       4       5
+[02]    mem  yes      1      11       1       1       2
+[03]    mem   no      3      20       5       7       0
+
+=== Request r0 @ t=24 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      24       2       5       1
+[01]    mem  yes      0      23       0       4       5
+[02]    mem  yes      1      11       1       1       2
+[03]    mem   no      3      20       5       7       0
+
+=== Request r1 @ t=25 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      24       2       5       1
+[01]    mem  yes      0      25       0       5       5
+[02]    mem  yes      1      11       1       1       2
+[03]    mem   no      3      20       5       7       0
+
+=== Request r1 @ t=26 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      24       2       5       1
+[01]    mem  yes      0      26       0       6       5
+[02]    mem  yes      1      11       1       1       2
+[03]    mem   no      3      20       5       7       0
+
+=== Request r0 @ t=27 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      27       2       6       1
+[01]    mem  yes      0      26       0       6       5
+[02]    mem  yes      1      11       1       1       2
+[03]    mem   no      3      20       5       7       0
+
+=== Request r0 @ t=28 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      28       2       7       1
+[01]    mem  yes      0      26       0       6       5
+[02]    mem  yes      1      11       1       1       2
+[03]    mem   no      3      20       5       7       0
+
+=== Request r0 @ t=29 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      29       2       8       1
+[01]    mem  yes      0      26       0       6       5
+[02]    mem  yes      1      11       1       1       2
+[03]    mem   no      3      20       5       7       0
+
+=== Request r0 @ t=30 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      30       2       9       1
+[01]    mem  yes      0      26       0       6       5
+[02]    mem  yes      1      11       1       1       2
+[03]    mem   no      3      20       5       7       0
+
+=== Request r1 @ t=31 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      30       2       9       1
+[01]    mem  yes      0      31       0       7       5
+[02]    mem  yes      1      11       1       1       2
+[03]    mem   no      3      20       5       7       0
+
+=== Request w0 @ t=32 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      32       2       9       2
+[01]    mem  yes      0      31       0       7       5
+[02]    mem  yes      1      11       1       1       2
+[03]    mem   no      3      20       5       7       0
+
+=== Request r0 @ t=33 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      33       2      10       2
+[01]    mem  yes      0      31       0       7       5
+[02]    mem  yes      1      11       1       1       2
+[03]    mem   no      3      20       5       7       0
+
+=== Request r1 @ t=34 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      33       2      10       2
+[01]    mem  yes      0      34       0       8       5
+[02]    mem  yes      1      11       1       1       2
+[03]    mem   no      3      20       5       7       0
+
+=== Request w0 @ t=35 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      35       2      10       3
+[01]    mem  yes      0      34       0       8       5
+[02]    mem  yes      1      11       1       1       2
+[03]    mem   no      3      20       5       7       0
+
+=== Request r0 @ t=36 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      36       2      11       3
+[01]    mem  yes      0      34       0       8       5
+[02]    mem  yes      1      11       1       1       2
+[03]    mem   no      3      20       5       7       0
+
+=== Request w0 @ t=37 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      37       2      11       4
+[01]    mem  yes      0      34       0       8       5
+[02]    mem  yes      1      11       1       1       2
+[03]    mem   no      3      20       5       7       0
+
+=== Request r0 @ t=38 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      38       2      12       4
+[01]    mem  yes      0      34       0       8       5
+[02]    mem  yes      1      11       1       1       2
+[03]    mem   no      3      20       5       7       0
+
+=== Request r2 @ t=39 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      38       2      12       4
+[01]    mem  yes      0      34       0       8       5
+[02]    mem  yes      1      39       1       2       2
+[03]    mem   no      3      20       5       7       0
+
+=== Request r2 @ t=40 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      38       2      12       4
+[01]    mem  yes      0      34       0       8       5
+[02]    mem  yes      1      40       1       3       2
+[03]    mem   no      3      20       5       7       0
+
+=== Request r3 @ t=41 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      38       2      12       4
+[01]    mem  yes      0      34       0       8       5
+[02]    mem  yes      1      40       1       3       2
+[03]    mem   no      3      41       5       8       0
+
+=== Request w2 @ t=42 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      38       2      12       4
+[01]    mem  yes      0      34       0       8       5
+[02]    mem  yes      1      42       1       3       3
+[03]    mem   no      3      41       5       8       0
+
+=== Request r2 @ t=43 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      38       2      12       4
+[01]    mem  yes      0      34       0       8       5
+[02]    mem  yes      1      43       1       4       3
+[03]    mem   no      3      41       5       8       0
+
+=== Request w1 @ t=44 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      38       2      12       4
+[01]    mem  yes      0      44       0       8       6
+[02]    mem  yes      1      43       1       4       3
+[03]    mem   no      3      41       5       8       0
+
+=== Request w1 @ t=45 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      38       2      12       4
+[01]    mem  yes      0      45       0       8       7
+[02]    mem  yes      1      43       1       4       3
+[03]    mem   no      3      41       5       8       0
+
+=== Request r0 @ t=46 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      46       2      13       4
+[01]    mem  yes      0      45       0       8       7
+[02]    mem  yes      1      43       1       4       3
+[03]    mem   no      3      41       5       8       0
+
+=== Request r0 @ t=47 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      47       2      14       4
+[01]    mem  yes      0      45       0       8       7
+[02]    mem  yes      1      43       1       4       3
+[03]    mem   no      3      41       5       8       0
+
+=== Request r0 @ t=48 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      48       2      15       4
+[01]    mem  yes      0      45       0       8       7
+[02]    mem  yes      1      43       1       4       3
+[03]    mem   no      3      41       5       8       0
+
+=== Request r3 @ t=49 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      48       2      15       4
+[01]    mem  yes      0      45       0       8       7
+[02]    mem  yes      1      43       1       4       3
+[03]    mem   no      3      49       5       9       0
+
+=== Request w1 @ t=50 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      48       2      15       4
+[01]    mem  yes      0      50       0       8       8
+[02]    mem  yes      1      43       1       4       3
+[03]    mem   no      3      49       5       9       0
+
+=== Request r0 @ t=51 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      51       2      16       4
+[01]    mem  yes      0      50       0       8       8
+[02]    mem  yes      1      43       1       4       3
+[03]    mem   no      3      49       5       9       0
+
+=== Request r1 @ t=52 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      51       2      16       4
+[01]    mem  yes      0      52       0       9       8
+[02]    mem  yes      1      43       1       4       3
+[03]    mem   no      3      49       5       9       0
+
+=== Request r2 @ t=53 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      51       2      16       4
+[01]    mem  yes      0      52       0       9       8
+[02]    mem  yes      1      53       1       5       3
+[03]    mem   no      3      49       5       9       0
+
+=== Request r0 @ t=54 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      54       2      17       4
+[01]    mem  yes      0      52       0       9       8
+[02]    mem  yes      1      53       1       5       3
+[03]    mem   no      3      49       5       9       0
+
+=== Request r0 @ t=55 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      55       2      18       4
+[01]    mem  yes      0      52       0       9       8
+[02]    mem  yes      1      53       1       5       3
+[03]    mem   no      3      49       5       9       0
+
+=== Request w3 @ t=56 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      55       2      18       4
+[01]    mem  yes      0      52       0       9       8
+[02]    mem  yes      1      53       1       5       3
+[03]    mem  yes      3      56       5       9       1
+
+=== Request r3 @ t=57 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      55       2      18       4
+[01]    mem  yes      0      52       0       9       8
+[02]    mem  yes      1      53       1       5       3
+[03]    mem  yes      3      57       5      10       1
+
+=== Request r3 @ t=58 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      55       2      18       4
+[01]    mem  yes      0      52       0       9       8
+[02]    mem  yes      1      53       1       5       3
+[03]    mem  yes      3      58       5      11       1
+
+=== Request w0 @ t=59 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      59       2      18       5
+[01]    mem  yes      0      52       0       9       8
+[02]    mem  yes      1      53       1       5       3
+[03]    mem  yes      3      58       5      11       1
+
+=== Request r1 @ t=60 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      59       2      18       5
+[01]    mem  yes      0      60       0      10       8
+[02]    mem  yes      1      53       1       5       3
+[03]    mem  yes      3      58       5      11       1
+
+=== Request r1 @ t=61 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      59       2      18       5
+[01]    mem  yes      0      61       0      11       8
+[02]    mem  yes      1      53       1       5       3
+[03]    mem  yes      3      58       5      11       1
+
+=== Request w3 @ t=62 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      59       2      18       5
+[01]    mem  yes      0      61       0      11       8
+[02]    mem  yes      1      53       1       5       3
+[03]    mem  yes      3      62       5      11       2
+
+=== Request r2 @ t=63 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      59       2      18       5
+[01]    mem  yes      0      61       0      11       8
+[02]    mem  yes      1      63       1       6       3
+[03]    mem  yes      3      62       5      11       2
+
+=== Request r2 @ t=64 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      59       2      18       5
+[01]    mem  yes      0      61       0      11       8
+[02]    mem  yes      1      64       1       7       3
+[03]    mem  yes      3      62       5      11       2
+
+=== Request w3 @ t=65 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      59       2      18       5
+[01]    mem  yes      0      61       0      11       8
+[02]    mem  yes      1      64       1       7       3
+[03]    mem  yes      3      65       5      11       3
+
+=== Request w2 @ t=66 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      59       2      18       5
+[01]    mem  yes      0      61       0      11       8
+[02]    mem  yes      1      66       1       7       4
+[03]    mem  yes      3      65       5      11       3
+
+=== Request r1 @ t=67 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      59       2      18       5
+[01]    mem  yes      0      67       0      12       8
+[02]    mem  yes      1      66       1       7       4
+[03]    mem  yes      3      65       5      11       3
+
+=== Request r0 @ t=68 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      68       2      19       5
+[01]    mem  yes      0      67       0      12       8
+[02]    mem  yes      1      66       1       7       4
+[03]    mem  yes      3      65       5      11       3
+
+=== Request r0 @ t=69 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      69       2      20       5
+[01]    mem  yes      0      67       0      12       8
+[02]    mem  yes      1      66       1       7       4
+[03]    mem  yes      3      65       5      11       3
+
+=== Request r3 @ t=70 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      69       2      20       5
+[01]    mem  yes      0      67       0      12       8
+[02]    mem  yes      1      66       1       7       4
+[03]    mem  yes      3      70       5      12       3
+
+=== Request r3 @ t=71 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      69       2      20       5
+[01]    mem  yes      0      67       0      12       8
+[02]    mem  yes      1      66       1       7       4
+[03]    mem  yes      3      71       5      13       3
+
+=== Request w0 @ t=72 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      72       2      20       6
+[01]    mem  yes      0      67       0      12       8
+[02]    mem  yes      1      66       1       7       4
+[03]    mem  yes      3      71       5      13       3
+
+=== Request r2 @ t=73 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      72       2      20       6
+[01]    mem  yes      0      67       0      12       8
+[02]    mem  yes      1      73       1       8       4
+[03]    mem  yes      3      71       5      13       3
+
+=== Request w3 @ t=74 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      72       2      20       6
+[01]    mem  yes      0      67       0      12       8
+[02]    mem  yes      1      73       1       8       4
+[03]    mem  yes      3      74       5      13       4
+
+=== Request r3 @ t=75 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      72       2      20       6
+[01]    mem  yes      0      67       0      12       8
+[02]    mem  yes      1      73       1       8       4
+[03]    mem  yes      3      75       5      14       4
+
+=== Request r0 @ t=76 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      76       2      21       6
+[01]    mem  yes      0      67       0      12       8
+[02]    mem  yes      1      73       1       8       4
+[03]    mem  yes      3      75       5      14       4
+
+=== Request r0 @ t=77 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      77       2      22       6
+[01]    mem  yes      0      67       0      12       8
+[02]    mem  yes      1      73       1       8       4
+[03]    mem  yes      3      75       5      14       4
+
+=== Request r0 @ t=78 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      78       2      23       6
+[01]    mem  yes      0      67       0      12       8
+[02]    mem  yes      1      73       1       8       4
+[03]    mem  yes      3      75       5      14       4
+
+=== Request r1 @ t=79 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      78       2      23       6
+[01]    mem  yes      0      79       0      13       8
+[02]    mem  yes      1      73       1       8       4
+[03]    mem  yes      3      75       5      14       4
+
+=== Request r2 @ t=80 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      78       2      23       6
+[01]    mem  yes      0      79       0      13       8
+[02]    mem  yes      1      80       1       9       4
+[03]    mem  yes      3      75       5      14       4
+
+=== Request r0 @ t=81 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      81       2      24       6
+[01]    mem  yes      0      79       0      13       8
+[02]    mem  yes      1      80       1       9       4
+[03]    mem  yes      3      75       5      14       4
+
+=== Request r0 @ t=82 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      82       2      25       6
+[01]    mem  yes      0      79       0      13       8
+[02]    mem  yes      1      80       1       9       4
+[03]    mem  yes      3      75       5      14       4
+
+=== Request r1 @ t=83 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      82       2      25       6
+[01]    mem  yes      0      83       0      14       8
+[02]    mem  yes      1      80       1       9       4
+[03]    mem  yes      3      75       5      14       4
+
+=== Request r0 @ t=84 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      84       2      26       6
+[01]    mem  yes      0      83       0      14       8
+[02]    mem  yes      1      80       1       9       4
+[03]    mem  yes      3      75       5      14       4
+
+=== Request r0 @ t=85 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      85       2      27       6
+[01]    mem  yes      0      83       0      14       8
+[02]    mem  yes      1      80       1       9       4
+[03]    mem  yes      3      75       5      14       4
+
+=== Request r0 @ t=86 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      86       2      28       6
+[01]    mem  yes      0      83       0      14       8
+[02]    mem  yes      1      80       1       9       4
+[03]    mem  yes      3      75       5      14       4
+
+=== Request r0 @ t=87 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      87       2      29       6
+[01]    mem  yes      0      83       0      14       8
+[02]    mem  yes      1      80       1       9       4
+[03]    mem  yes      3      75       5      14       4
+
+=== Request r0 @ t=88 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      88       2      30       6
+[01]    mem  yes      0      83       0      14       8
+[02]    mem  yes      1      80       1       9       4
+[03]    mem  yes      3      75       5      14       4
+
+=== Request w3 @ t=89 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      88       2      30       6
+[01]    mem  yes      0      83       0      14       8
+[02]    mem  yes      1      80       1       9       4
+[03]    mem  yes      3      89       5      14       5
+
+=== Request r1 @ t=90 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      88       2      30       6
+[01]    mem  yes      0      90       0      15       8
+[02]    mem  yes      1      80       1       9       4
+[03]    mem  yes      3      89       5      14       5
+
+=== Request w1 @ t=91 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      88       2      30       6
+[01]    mem  yes      0      91       0      15       9
+[02]    mem  yes      1      80       1       9       4
+[03]    mem  yes      3      89       5      14       5
+
+=== Request r3 @ t=92 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      88       2      30       6
+[01]    mem  yes      0      91       0      15       9
+[02]    mem  yes      1      80       1       9       4
+[03]    mem  yes      3      92       5      15       5
+
+=== Request r2 @ t=93 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      88       2      30       6
+[01]    mem  yes      0      91       0      15       9
+[02]    mem  yes      1      93       1      10       4
+[03]    mem  yes      3      92       5      15       5
+
+=== Request r2 @ t=94 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      88       2      30       6
+[01]    mem  yes      0      91       0      15       9
+[02]    mem  yes      1      94       1      11       4
+[03]    mem  yes      3      92       5      15       5
+
+=== Request w3 @ t=95 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      88       2      30       6
+[01]    mem  yes      0      91       0      15       9
+[02]    mem  yes      1      94       1      11       4
+[03]    mem  yes      3      95       5      15       6
+
+=== Request r0 @ t=96 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      96       2      31       6
+[01]    mem  yes      0      91       0      15       9
+[02]    mem  yes      1      94       1      11       4
+[03]    mem  yes      3      95       5      15       6
+
+=== Request w0 @ t=97 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      97       2      31       7
+[01]    mem  yes      0      91       0      15       9
+[02]    mem  yes      1      94       1      11       4
+[03]    mem  yes      3      95       5      15       6
+
+=== Request w0 @ t=98 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      98       2      31       8
+[01]    mem  yes      0      91       0      15       9
+[02]    mem  yes      1      94       1      11       4
+[03]    mem  yes      3      95       5      15       6
+
+=== Request r0 @ t=99 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2      99       2      32       8
+[01]    mem  yes      0      91       0      15       9
+[02]    mem  yes      1      94       1      11       4
+[03]    mem  yes      3      95       5      15       6
+
+=== Request w0 @ t=100 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     100       2      32       9
+[01]    mem  yes      0      91       0      15       9
+[02]    mem  yes      1      94       1      11       4
+[03]    mem  yes      3      95       5      15       6
+
+=== Request r0 @ t=101 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     101       2      33       9
+[01]    mem  yes      0      91       0      15       9
+[02]    mem  yes      1      94       1      11       4
+[03]    mem  yes      3      95       5      15       6
+
+=== Request r0 @ t=102 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     102       2      34       9
+[01]    mem  yes      0      91       0      15       9
+[02]    mem  yes      1      94       1      11       4
+[03]    mem  yes      3      95       5      15       6
+
+=== Request r0 @ t=103 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     103       2      35       9
+[01]    mem  yes      0      91       0      15       9
+[02]    mem  yes      1      94       1      11       4
+[03]    mem  yes      3      95       5      15       6
+
+=== Request r0 @ t=104 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     104       2      36       9
+[01]    mem  yes      0      91       0      15       9
+[02]    mem  yes      1      94       1      11       4
+[03]    mem  yes      3      95       5      15       6
+
+=== Request w0 @ t=105 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     105       2      36      10
+[01]    mem  yes      0      91       0      15       9
+[02]    mem  yes      1      94       1      11       4
+[03]    mem  yes      3      95       5      15       6
+
+=== Request r0 @ t=106 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     106       2      37      10
+[01]    mem  yes      0      91       0      15       9
+[02]    mem  yes      1      94       1      11       4
+[03]    mem  yes      3      95       5      15       6
+
+=== Request r0 @ t=107 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     107       2      38      10
+[01]    mem  yes      0      91       0      15       9
+[02]    mem  yes      1      94       1      11       4
+[03]    mem  yes      3      95       5      15       6
+
+=== Request r0 @ t=108 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     108       2      39      10
+[01]    mem  yes      0      91       0      15       9
+[02]    mem  yes      1      94       1      11       4
+[03]    mem  yes      3      95       5      15       6
+
+=== Request r2 @ t=109 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     108       2      39      10
+[01]    mem  yes      0      91       0      15       9
+[02]    mem  yes      1     109       1      12       4
+[03]    mem  yes      3      95       5      15       6
+
+=== Request r2 @ t=110 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     108       2      39      10
+[01]    mem  yes      0      91       0      15       9
+[02]    mem  yes      1     110       1      13       4
+[03]    mem  yes      3      95       5      15       6
+
+=== Request r2 @ t=111 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     108       2      39      10
+[01]    mem  yes      0      91       0      15       9
+[02]    mem  yes      1     111       1      14       4
+[03]    mem  yes      3      95       5      15       6
+
+=== Request w2 @ t=112 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     108       2      39      10
+[01]    mem  yes      0      91       0      15       9
+[02]    mem  yes      1     112       1      14       5
+[03]    mem  yes      3      95       5      15       6
+
+=== Request r1 @ t=113 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     108       2      39      10
+[01]    mem  yes      0     113       0      16       9
+[02]    mem  yes      1     112       1      14       5
+[03]    mem  yes      3      95       5      15       6
+
+=== Request w2 @ t=114 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     108       2      39      10
+[01]    mem  yes      0     113       0      16       9
+[02]    mem  yes      1     114       1      14       6
+[03]    mem  yes      3      95       5      15       6
+
+=== Request r2 @ t=115 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     108       2      39      10
+[01]    mem  yes      0     113       0      16       9
+[02]    mem  yes      1     115       1      15       6
+[03]    mem  yes      3      95       5      15       6
+
+=== Request r3 @ t=116 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     108       2      39      10
+[01]    mem  yes      0     113       0      16       9
+[02]    mem  yes      1     115       1      15       6
+[03]    mem  yes      3     116       5      16       6
+
+=== Request r3 @ t=117 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     108       2      39      10
+[01]    mem  yes      0     113       0      16       9
+[02]    mem  yes      1     115       1      15       6
+[03]    mem  yes      3     117       5      17       6
+
+=== Request r3 @ t=118 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     108       2      39      10
+[01]    mem  yes      0     113       0      16       9
+[02]    mem  yes      1     115       1      15       6
+[03]    mem  yes      3     118       5      18       6
+
+=== Request r2 @ t=119 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     108       2      39      10
+[01]    mem  yes      0     113       0      16       9
+[02]    mem  yes      1     119       1      16       6
+[03]    mem  yes      3     118       5      18       6
+
+=== Request r2 @ t=120 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     108       2      39      10
+[01]    mem  yes      0     113       0      16       9
+[02]    mem  yes      1     120       1      17       6
+[03]    mem  yes      3     118       5      18       6
+
+=== Request w1 @ t=121 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     108       2      39      10
+[01]    mem  yes      0     121       0      16      10
+[02]    mem  yes      1     120       1      17       6
+[03]    mem  yes      3     118       5      18       6
+
+=== Request r1 @ t=122 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     108       2      39      10
+[01]    mem  yes      0     122       0      17      10
+[02]    mem  yes      1     120       1      17       6
+[03]    mem  yes      3     118       5      18       6
+
+=== Request r1 @ t=123 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     108       2      39      10
+[01]    mem  yes      0     123       0      18      10
+[02]    mem  yes      1     120       1      17       6
+[03]    mem  yes      3     118       5      18       6
+
+=== Request r2 @ t=124 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     108       2      39      10
+[01]    mem  yes      0     123       0      18      10
+[02]    mem  yes      1     124       1      18       6
+[03]    mem  yes      3     118       5      18       6
+
+=== Request r2 @ t=125 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     108       2      39      10
+[01]    mem  yes      0     123       0      18      10
+[02]    mem  yes      1     125       1      19       6
+[03]    mem  yes      3     118       5      18       6
+
+=== Request r2 @ t=126 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     108       2      39      10
+[01]    mem  yes      0     123       0      18      10
+[02]    mem  yes      1     126       1      20       6
+[03]    mem  yes      3     118       5      18       6
+
+=== Request r0 @ t=127 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     127       2      40      10
+[01]    mem  yes      0     123       0      18      10
+[02]    mem  yes      1     126       1      20       6
+[03]    mem  yes      3     118       5      18       6
+
+=== Request w0 @ t=128 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     128       2      40      11
+[01]    mem  yes      0     123       0      18      10
+[02]    mem  yes      1     126       1      20       6
+[03]    mem  yes      3     118       5      18       6
+
+=== Request r1 @ t=129 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     128       2      40      11
+[01]    mem  yes      0     129       0      19      10
+[02]    mem  yes      1     126       1      20       6
+[03]    mem  yes      3     118       5      18       6
+
+=== Request r1 @ t=130 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     128       2      40      11
+[01]    mem  yes      0     130       0      20      10
+[02]    mem  yes      1     126       1      20       6
+[03]    mem  yes      3     118       5      18       6
+
+=== Request w3 @ t=131 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     128       2      40      11
+[01]    mem  yes      0     130       0      20      10
+[02]    mem  yes      1     126       1      20       6
+[03]    mem  yes      3     131       5      18       7
+
+=== Request r3 @ t=132 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     128       2      40      11
+[01]    mem  yes      0     130       0      20      10
+[02]    mem  yes      1     126       1      20       6
+[03]    mem  yes      3     132       5      19       7
+
+=== Request r3 @ t=133 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     128       2      40      11
+[01]    mem  yes      0     130       0      20      10
+[02]    mem  yes      1     126       1      20       6
+[03]    mem  yes      3     133       5      20       7
+
+=== Request w1 @ t=134 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     128       2      40      11
+[01]    mem  yes      0     134       0      20      11
+[02]    mem  yes      1     126       1      20       6
+[03]    mem  yes      3     133       5      20       7
+
+=== Request r2 @ t=135 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     128       2      40      11
+[01]    mem  yes      0     134       0      20      11
+[02]    mem  yes      1     135       1      21       6
+[03]    mem  yes      3     133       5      20       7
+
+=== Request r0 @ t=136 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     136       2      41      11
+[01]    mem  yes      0     134       0      20      11
+[02]    mem  yes      1     135       1      21       6
+[03]    mem  yes      3     133       5      20       7
+
+=== Request r0 @ t=137 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     137       2      42      11
+[01]    mem  yes      0     134       0      20      11
+[02]    mem  yes      1     135       1      21       6
+[03]    mem  yes      3     133       5      20       7
+
+=== Request r1 @ t=138 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     137       2      42      11
+[01]    mem  yes      0     138       0      21      11
+[02]    mem  yes      1     135       1      21       6
+[03]    mem  yes      3     133       5      20       7
+
+=== Request w0 @ t=139 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     139       2      42      12
+[01]    mem  yes      0     138       0      21      11
+[02]    mem  yes      1     135       1      21       6
+[03]    mem  yes      3     133       5      20       7
+
+=== Request w0 @ t=140 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     140       2      42      13
+[01]    mem  yes      0     138       0      21      11
+[02]    mem  yes      1     135       1      21       6
+[03]    mem  yes      3     133       5      20       7
+
+=== Request w0 @ t=141 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     141       2      42      14
+[01]    mem  yes      0     138       0      21      11
+[02]    mem  yes      1     135       1      21       6
+[03]    mem  yes      3     133       5      20       7
+
+=== Request r2 @ t=142 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     141       2      42      14
+[01]    mem  yes      0     138       0      21      11
+[02]    mem  yes      1     142       1      22       6
+[03]    mem  yes      3     133       5      20       7
+
+=== Request r2 @ t=143 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     141       2      42      14
+[01]    mem  yes      0     138       0      21      11
+[02]    mem  yes      1     143       1      23       6
+[03]    mem  yes      3     133       5      20       7
+
+=== Request w1 @ t=144 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     141       2      42      14
+[01]    mem  yes      0     144       0      21      12
+[02]    mem  yes      1     143       1      23       6
+[03]    mem  yes      3     133       5      20       7
+
+=== Request r1 @ t=145 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     141       2      42      14
+[01]    mem  yes      0     145       0      22      12
+[02]    mem  yes      1     143       1      23       6
+[03]    mem  yes      3     133       5      20       7
+
+=== Request r1 @ t=146 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     141       2      42      14
+[01]    mem  yes      0     146       0      23      12
+[02]    mem  yes      1     143       1      23       6
+[03]    mem  yes      3     133       5      20       7
+
+=== Request r1 @ t=147 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     141       2      42      14
+[01]    mem  yes      0     147       0      24      12
+[02]    mem  yes      1     143       1      23       6
+[03]    mem  yes      3     133       5      20       7
+
+=== Request r0 @ t=148 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     148       2      43      14
+[01]    mem  yes      0     147       0      24      12
+[02]    mem  yes      1     143       1      23       6
+[03]    mem  yes      3     133       5      20       7
+
+=== Request r0 @ t=149 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     149       2      44      14
+[01]    mem  yes      0     147       0      24      12
+[02]    mem  yes      1     143       1      23       6
+[03]    mem  yes      3     133       5      20       7
+
+=== Request r1 @ t=150 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     149       2      44      14
+[01]    mem  yes      0     150       0      25      12
+[02]    mem  yes      1     143       1      23       6
+[03]    mem  yes      3     133       5      20       7
+
+=== Request r2 @ t=151 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     149       2      44      14
+[01]    mem  yes      0     150       0      25      12
+[02]    mem  yes      1     151       1      24       6
+[03]    mem  yes      3     133       5      20       7
+
+=== Request r2 @ t=152 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     149       2      44      14
+[01]    mem  yes      0     150       0      25      12
+[02]    mem  yes      1     152       1      25       6
+[03]    mem  yes      3     133       5      20       7
+
+=== Request w0 @ t=153 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     153       2      44      15
+[01]    mem  yes      0     150       0      25      12
+[02]    mem  yes      1     152       1      25       6
+[03]    mem  yes      3     133       5      20       7
+
+=== Request r1 @ t=154 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     153       2      44      15
+[01]    mem  yes      0     154       0      26      12
+[02]    mem  yes      1     152       1      25       6
+[03]    mem  yes      3     133       5      20       7
+
+=== Request r0 @ t=155 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     155       2      45      15
+[01]    mem  yes      0     154       0      26      12
+[02]    mem  yes      1     152       1      25       6
+[03]    mem  yes      3     133       5      20       7
+
+=== Request r0 @ t=156 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     156       2      46      15
+[01]    mem  yes      0     154       0      26      12
+[02]    mem  yes      1     152       1      25       6
+[03]    mem  yes      3     133       5      20       7
+
+=== Request r3 @ t=157 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     156       2      46      15
+[01]    mem  yes      0     154       0      26      12
+[02]    mem  yes      1     152       1      25       6
+[03]    mem  yes      3     157       5      21       7
+
+=== Request r3 @ t=158 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     156       2      46      15
+[01]    mem  yes      0     154       0      26      12
+[02]    mem  yes      1     152       1      25       6
+[03]    mem  yes      3     158       5      22       7
+
+=== Request w0 @ t=159 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     159       2      46      16
+[01]    mem  yes      0     154       0      26      12
+[02]    mem  yes      1     152       1      25       6
+[03]    mem  yes      3     158       5      22       7
+
+=== Request w0 @ t=160 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     160       2      46      17
+[01]    mem  yes      0     154       0      26      12
+[02]    mem  yes      1     152       1      25       6
+[03]    mem  yes      3     158       5      22       7
+
+=== Request r1 @ t=161 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     160       2      46      17
+[01]    mem  yes      0     161       0      27      12
+[02]    mem  yes      1     152       1      25       6
+[03]    mem  yes      3     158       5      22       7
+
+=== Request w2 @ t=162 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     160       2      46      17
+[01]    mem  yes      0     161       0      27      12
+[02]    mem  yes      1     162       1      25       7
+[03]    mem  yes      3     158       5      22       7
+
+=== Request r0 @ t=163 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     163       2      47      17
+[01]    mem  yes      0     161       0      27      12
+[02]    mem  yes      1     162       1      25       7
+[03]    mem  yes      3     158       5      22       7
+
+=== Request r3 @ t=164 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     163       2      47      17
+[01]    mem  yes      0     161       0      27      12
+[02]    mem  yes      1     162       1      25       7
+[03]    mem  yes      3     164       5      23       7
+
+=== Request r3 @ t=165 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     163       2      47      17
+[01]    mem  yes      0     161       0      27      12
+[02]    mem  yes      1     162       1      25       7
+[03]    mem  yes      3     165       5      24       7
+
+=== Request r3 @ t=166 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     163       2      47      17
+[01]    mem  yes      0     161       0      27      12
+[02]    mem  yes      1     162       1      25       7
+[03]    mem  yes      3     166       5      25       7
+
+=== Request r2 @ t=167 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     163       2      47      17
+[01]    mem  yes      0     161       0      27      12
+[02]    mem  yes      1     167       1      26       7
+[03]    mem  yes      3     166       5      25       7
+
+=== Request r0 @ t=168 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     168       2      48      17
+[01]    mem  yes      0     161       0      27      12
+[02]    mem  yes      1     167       1      26       7
+[03]    mem  yes      3     166       5      25       7
+
+=== Request r1 @ t=169 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     168       2      48      17
+[01]    mem  yes      0     169       0      28      12
+[02]    mem  yes      1     167       1      26       7
+[03]    mem  yes      3     166       5      25       7
+
+=== Request r1 @ t=170 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     168       2      48      17
+[01]    mem  yes      0     170       0      29      12
+[02]    mem  yes      1     167       1      26       7
+[03]    mem  yes      3     166       5      25       7
+
+=== Request r2 @ t=171 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     168       2      48      17
+[01]    mem  yes      0     170       0      29      12
+[02]    mem  yes      1     171       1      27       7
+[03]    mem  yes      3     166       5      25       7
+
+=== Request r1 @ t=172 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     168       2      48      17
+[01]    mem  yes      0     172       0      30      12
+[02]    mem  yes      1     171       1      27       7
+[03]    mem  yes      3     166       5      25       7
+
+=== Request w1 @ t=173 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     168       2      48      17
+[01]    mem  yes      0     173       0      30      13
+[02]    mem  yes      1     171       1      27       7
+[03]    mem  yes      3     166       5      25       7
+
+=== Request w3 @ t=174 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     168       2      48      17
+[01]    mem  yes      0     173       0      30      13
+[02]    mem  yes      1     171       1      27       7
+[03]    mem  yes      3     174       5      25       8
+
+=== Request r1 @ t=175 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     168       2      48      17
+[01]    mem  yes      0     175       0      31      13
+[02]    mem  yes      1     171       1      27       7
+[03]    mem  yes      3     174       5      25       8
+
+=== Request r1 @ t=176 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     168       2      48      17
+[01]    mem  yes      0     176       0      32      13
+[02]    mem  yes      1     171       1      27       7
+[03]    mem  yes      3     174       5      25       8
+
+=== Request r1 @ t=177 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     168       2      48      17
+[01]    mem  yes      0     177       0      33      13
+[02]    mem  yes      1     171       1      27       7
+[03]    mem  yes      3     174       5      25       8
+
+=== Request w0 @ t=178 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     178       2      48      18
+[01]    mem  yes      0     177       0      33      13
+[02]    mem  yes      1     171       1      27       7
+[03]    mem  yes      3     174       5      25       8
+
+=== Request r2 @ t=179 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     178       2      48      18
+[01]    mem  yes      0     177       0      33      13
+[02]    mem  yes      1     179       1      28       7
+[03]    mem  yes      3     174       5      25       8
+
+=== Request r2 @ t=180 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     178       2      48      18
+[01]    mem  yes      0     177       0      33      13
+[02]    mem  yes      1     180       1      29       7
+[03]    mem  yes      3     174       5      25       8
+
+=== Request r3 @ t=181 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     178       2      48      18
+[01]    mem  yes      0     177       0      33      13
+[02]    mem  yes      1     180       1      29       7
+[03]    mem  yes      3     181       5      26       8
+
+=== Request r2 @ t=182 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     178       2      48      18
+[01]    mem  yes      0     177       0      33      13
+[02]    mem  yes      1     182       1      30       7
+[03]    mem  yes      3     181       5      26       8
+
+=== Request r3 @ t=183 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     178       2      48      18
+[01]    mem  yes      0     177       0      33      13
+[02]    mem  yes      1     182       1      30       7
+[03]    mem  yes      3     183       5      27       8
+
+=== Request w3 @ t=184 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     178       2      48      18
+[01]    mem  yes      0     177       0      33      13
+[02]    mem  yes      1     182       1      30       7
+[03]    mem  yes      3     184       5      27       9
+
+=== Request r3 @ t=185 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     178       2      48      18
+[01]    mem  yes      0     177       0      33      13
+[02]    mem  yes      1     182       1      30       7
+[03]    mem  yes      3     185       5      28       9
+
+=== Request w2 @ t=186 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     178       2      48      18
+[01]    mem  yes      0     177       0      33      13
+[02]    mem  yes      1     186       1      30       8
+[03]    mem  yes      3     185       5      28       9
+
+=== Request r2 @ t=187 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     178       2      48      18
+[01]    mem  yes      0     177       0      33      13
+[02]    mem  yes      1     187       1      31       8
+[03]    mem  yes      3     185       5      28       9
+
+=== Request r0 @ t=188 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     188       2      49      18
+[01]    mem  yes      0     177       0      33      13
+[02]    mem  yes      1     187       1      31       8
+[03]    mem  yes      3     185       5      28       9
+
+=== Request r0 @ t=189 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     189       2      50      18
+[01]    mem  yes      0     177       0      33      13
+[02]    mem  yes      1     187       1      31       8
+[03]    mem  yes      3     185       5      28       9
+
+=== Request r3 @ t=190 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     189       2      50      18
+[01]    mem  yes      0     177       0      33      13
+[02]    mem  yes      1     187       1      31       8
+[03]    mem  yes      3     190       5      29       9
+
+=== Request r0 @ t=191 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     191       2      51      18
+[01]    mem  yes      0     177       0      33      13
+[02]    mem  yes      1     187       1      31       8
+[03]    mem  yes      3     190       5      29       9
+
+=== Request r0 @ t=192 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     192       2      52      18
+[01]    mem  yes      0     177       0      33      13
+[02]    mem  yes      1     187       1      31       8
+[03]    mem  yes      3     190       5      29       9
+
+=== Request r3 @ t=193 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     192       2      52      18
+[01]    mem  yes      0     177       0      33      13
+[02]    mem  yes      1     187       1      31       8
+[03]    mem  yes      3     193       5      30       9
+
+=== Request r3 @ t=194 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     192       2      52      18
+[01]    mem  yes      0     177       0      33      13
+[02]    mem  yes      1     187       1      31       8
+[03]    mem  yes      3     194       5      31       9
+
+=== Request r3 @ t=195 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     192       2      52      18
+[01]    mem  yes      0     177       0      33      13
+[02]    mem  yes      1     187       1      31       8
+[03]    mem  yes      3     195       5      32       9
+
+=== Request r2 @ t=196 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     192       2      52      18
+[01]    mem  yes      0     177       0      33      13
+[02]    mem  yes      1     196       1      32       8
+[03]    mem  yes      3     195       5      32       9
+
+=== Request w2 @ t=197 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     192       2      52      18
+[01]    mem  yes      0     177       0      33      13
+[02]    mem  yes      1     197       1      32       9
+[03]    mem  yes      3     195       5      32       9
+
+=== Request w2 @ t=198 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     192       2      52      18
+[01]    mem  yes      0     177       0      33      13
+[02]    mem  yes      1     198       1      32      10
+[03]    mem  yes      3     195       5      32       9
+
+=== Request w2 @ t=199 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     192       2      52      18
+[01]    mem  yes      0     177       0      33      13
+[02]    mem  yes      1     199       1      32      11
+[03]    mem  yes      3     195       5      32       9
+
+=== Request w2 @ t=200 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     192       2      52      18
+[01]    mem  yes      0     177       0      33      13
+[02]    mem  yes      1     200       1      32      12
+[03]    mem  yes      3     195       5      32       9
+
+=== Request r3 @ t=201 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     192       2      52      18
+[01]    mem  yes      0     177       0      33      13
+[02]    mem  yes      1     200       1      32      12
+[03]    mem  yes      3     201       5      33       9
+
+=== Request w3 @ t=202 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     192       2      52      18
+[01]    mem  yes      0     177       0      33      13
+[02]    mem  yes      1     200       1      32      12
+[03]    mem  yes      3     202       5      33      10
+
+=== Request r3 @ t=203 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     192       2      52      18
+[01]    mem  yes      0     177       0      33      13
+[02]    mem  yes      1     200       1      32      12
+[03]    mem  yes      3     203       5      34      10
+
+=== Request r3 @ t=204 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     192       2      52      18
+[01]    mem  yes      0     177       0      33      13
+[02]    mem  yes      1     200       1      32      12
+[03]    mem  yes      3     204       5      35      10
+
+=== Request r2 @ t=205 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     192       2      52      18
+[01]    mem  yes      0     177       0      33      13
+[02]    mem  yes      1     205       1      33      12
+[03]    mem  yes      3     204       5      35      10
+
+=== Request w0 @ t=206 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     206       2      52      19
+[01]    mem  yes      0     177       0      33      13
+[02]    mem  yes      1     205       1      33      12
+[03]    mem  yes      3     204       5      35      10
+
+=== Request r0 @ t=207 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     207       2      53      19
+[01]    mem  yes      0     177       0      33      13
+[02]    mem  yes      1     205       1      33      12
+[03]    mem  yes      3     204       5      35      10
+
+=== Request r2 @ t=208 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     207       2      53      19
+[01]    mem  yes      0     177       0      33      13
+[02]    mem  yes      1     208       1      34      12
+[03]    mem  yes      3     204       5      35      10
+
+=== Request w0 @ t=209 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     209       2      53      20
+[01]    mem  yes      0     177       0      33      13
+[02]    mem  yes      1     208       1      34      12
+[03]    mem  yes      3     204       5      35      10
+
+=== Request r2 @ t=210 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     209       2      53      20
+[01]    mem  yes      0     177       0      33      13
+[02]    mem  yes      1     210       1      35      12
+[03]    mem  yes      3     204       5      35      10
+
+=== Request r2 @ t=211 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     209       2      53      20
+[01]    mem  yes      0     177       0      33      13
+[02]    mem  yes      1     211       1      36      12
+[03]    mem  yes      3     204       5      35      10
+
+=== Request r2 @ t=212 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     209       2      53      20
+[01]    mem  yes      0     177       0      33      13
+[02]    mem  yes      1     212       1      37      12
+[03]    mem  yes      3     204       5      35      10
+
+=== Request w2 @ t=213 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     209       2      53      20
+[01]    mem  yes      0     177       0      33      13
+[02]    mem  yes      1     213       1      37      13
+[03]    mem  yes      3     204       5      35      10
+
+=== Request w2 @ t=214 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     209       2      53      20
+[01]    mem  yes      0     177       0      33      13
+[02]    mem  yes      1     214       1      37      14
+[03]    mem  yes      3     204       5      35      10
+
+=== Request w3 @ t=215 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     209       2      53      20
+[01]    mem  yes      0     177       0      33      13
+[02]    mem  yes      1     214       1      37      14
+[03]    mem  yes      3     215       5      35      11
+
+=== Request r0 @ t=216 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     216       2      54      20
+[01]    mem  yes      0     177       0      33      13
+[02]    mem  yes      1     214       1      37      14
+[03]    mem  yes      3     215       5      35      11
+
+=== Request r0 @ t=217 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     217       2      55      20
+[01]    mem  yes      0     177       0      33      13
+[02]    mem  yes      1     214       1      37      14
+[03]    mem  yes      3     215       5      35      11
+
+=== Request r0 @ t=218 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     218       2      56      20
+[01]    mem  yes      0     177       0      33      13
+[02]    mem  yes      1     214       1      37      14
+[03]    mem  yes      3     215       5      35      11
+
+=== Request w0 @ t=219 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     219       2      56      21
+[01]    mem  yes      0     177       0      33      13
+[02]    mem  yes      1     214       1      37      14
+[03]    mem  yes      3     215       5      35      11
+
+=== Request r0 @ t=220 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     220       2      57      21
+[01]    mem  yes      0     177       0      33      13
+[02]    mem  yes      1     214       1      37      14
+[03]    mem  yes      3     215       5      35      11
+
+=== Request r2 @ t=221 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     220       2      57      21
+[01]    mem  yes      0     177       0      33      13
+[02]    mem  yes      1     221       1      38      14
+[03]    mem  yes      3     215       5      35      11
+
+=== Request r2 @ t=222 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     220       2      57      21
+[01]    mem  yes      0     177       0      33      13
+[02]    mem  yes      1     222       1      39      14
+[03]    mem  yes      3     215       5      35      11
+
+=== Request w3 @ t=223 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     220       2      57      21
+[01]    mem  yes      0     177       0      33      13
+[02]    mem  yes      1     222       1      39      14
+[03]    mem  yes      3     223       5      35      12
+
+=== Request r2 @ t=224 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     220       2      57      21
+[01]    mem  yes      0     177       0      33      13
+[02]    mem  yes      1     224       1      40      14
+[03]    mem  yes      3     223       5      35      12
+
+=== Request r2 @ t=225 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     220       2      57      21
+[01]    mem  yes      0     177       0      33      13
+[02]    mem  yes      1     225       1      41      14
+[03]    mem  yes      3     223       5      35      12
+
+=== Request r1 @ t=226 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     220       2      57      21
+[01]    mem  yes      0     226       0      34      13
+[02]    mem  yes      1     225       1      41      14
+[03]    mem  yes      3     223       5      35      12
+
+=== Request r1 @ t=227 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     220       2      57      21
+[01]    mem  yes      0     227       0      35      13
+[02]    mem  yes      1     225       1      41      14
+[03]    mem  yes      3     223       5      35      12
+
+=== Request r1 @ t=228 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     220       2      57      21
+[01]    mem  yes      0     228       0      36      13
+[02]    mem  yes      1     225       1      41      14
+[03]    mem  yes      3     223       5      35      12
+
+=== Request r2 @ t=229 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     220       2      57      21
+[01]    mem  yes      0     228       0      36      13
+[02]    mem  yes      1     229       1      42      14
+[03]    mem  yes      3     223       5      35      12
+
+=== Request r3 @ t=230 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     220       2      57      21
+[01]    mem  yes      0     228       0      36      13
+[02]    mem  yes      1     229       1      42      14
+[03]    mem  yes      3     230       5      36      12
+
+=== Request r1 @ t=231 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     220       2      57      21
+[01]    mem  yes      0     231       0      37      13
+[02]    mem  yes      1     229       1      42      14
+[03]    mem  yes      3     230       5      36      12
+
+=== Request r3 @ t=232 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     220       2      57      21
+[01]    mem  yes      0     231       0      37      13
+[02]    mem  yes      1     229       1      42      14
+[03]    mem  yes      3     232       5      37      12
+
+=== Request r1 @ t=233 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     220       2      57      21
+[01]    mem  yes      0     233       0      38      13
+[02]    mem  yes      1     229       1      42      14
+[03]    mem  yes      3     232       5      37      12
+
+=== Request r1 @ t=234 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     220       2      57      21
+[01]    mem  yes      0     234       0      39      13
+[02]    mem  yes      1     229       1      42      14
+[03]    mem  yes      3     232       5      37      12
+
+=== Request r1 @ t=235 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     220       2      57      21
+[01]    mem  yes      0     235       0      40      13
+[02]    mem  yes      1     229       1      42      14
+[03]    mem  yes      3     232       5      37      12
+
+=== Request r2 @ t=236 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     220       2      57      21
+[01]    mem  yes      0     235       0      40      13
+[02]    mem  yes      1     236       1      43      14
+[03]    mem  yes      3     232       5      37      12
+
+=== Request r2 @ t=237 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     220       2      57      21
+[01]    mem  yes      0     235       0      40      13
+[02]    mem  yes      1     237       1      44      14
+[03]    mem  yes      3     232       5      37      12
+
+=== Request r1 @ t=238 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     220       2      57      21
+[01]    mem  yes      0     238       0      41      13
+[02]    mem  yes      1     237       1      44      14
+[03]    mem  yes      3     232       5      37      12
+
+=== Request r2 @ t=239 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     220       2      57      21
+[01]    mem  yes      0     238       0      41      13
+[02]    mem  yes      1     239       1      45      14
+[03]    mem  yes      3     232       5      37      12
+
+=== Request r3 @ t=240 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     220       2      57      21
+[01]    mem  yes      0     238       0      41      13
+[02]    mem  yes      1     239       1      45      14
+[03]    mem  yes      3     240       5      38      12
+
+=== Request r3 @ t=241 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     220       2      57      21
+[01]    mem  yes      0     238       0      41      13
+[02]    mem  yes      1     239       1      45      14
+[03]    mem  yes      3     241       5      39      12
+
+=== Request w2 @ t=242 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     220       2      57      21
+[01]    mem  yes      0     238       0      41      13
+[02]    mem  yes      1     242       1      45      15
+[03]    mem  yes      3     241       5      39      12
+
+=== Request r3 @ t=243 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     220       2      57      21
+[01]    mem  yes      0     238       0      41      13
+[02]    mem  yes      1     242       1      45      15
+[03]    mem  yes      3     243       5      40      12
+
+=== Request w3 @ t=244 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     220       2      57      21
+[01]    mem  yes      0     238       0      41      13
+[02]    mem  yes      1     242       1      45      15
+[03]    mem  yes      3     244       5      40      13
+
+=== Request w3 @ t=245 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     220       2      57      21
+[01]    mem  yes      0     238       0      41      13
+[02]    mem  yes      1     242       1      45      15
+[03]    mem  yes      3     245       5      40      14
+
+=== Request w3 @ t=246 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     220       2      57      21
+[01]    mem  yes      0     238       0      41      13
+[02]    mem  yes      1     242       1      45      15
+[03]    mem  yes      3     246       5      40      15
+
+=== Request w2 @ t=247 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     220       2      57      21
+[01]    mem  yes      0     238       0      41      13
+[02]    mem  yes      1     247       1      45      16
+[03]    mem  yes      3     246       5      40      15
+
+=== Request w3 @ t=248 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     220       2      57      21
+[01]    mem  yes      0     238       0      41      13
+[02]    mem  yes      1     247       1      45      16
+[03]    mem  yes      3     248       5      40      16
+
+=== Request w3 @ t=249 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     220       2      57      21
+[01]    mem  yes      0     238       0      41      13
+[02]    mem  yes      1     247       1      45      16
+[03]    mem  yes      3     249       5      40      17
+
+=== Request r3 @ t=250 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     220       2      57      21
+[01]    mem  yes      0     238       0      41      13
+[02]    mem  yes      1     247       1      45      16
+[03]    mem  yes      3     250       5      41      17
+
+=== Request r3 @ t=251 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     220       2      57      21
+[01]    mem  yes      0     238       0      41      13
+[02]    mem  yes      1     247       1      45      16
+[03]    mem  yes      3     251       5      42      17
+
+=== Request r1 @ t=252 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     220       2      57      21
+[01]    mem  yes      0     252       0      42      13
+[02]    mem  yes      1     247       1      45      16
+[03]    mem  yes      3     251       5      42      17
+
+=== Request r2 @ t=253 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     220       2      57      21
+[01]    mem  yes      0     252       0      42      13
+[02]    mem  yes      1     253       1      46      16
+[03]    mem  yes      3     251       5      42      17
+
+=== Request w0 @ t=254 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     254       2      57      22
+[01]    mem  yes      0     252       0      42      13
+[02]    mem  yes      1     253       1      46      16
+[03]    mem  yes      3     251       5      42      17
+
+=== Request r0 @ t=255 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     255       2      58      22
+[01]    mem  yes      0     252       0      42      13
+[02]    mem  yes      1     253       1      46      16
+[03]    mem  yes      3     251       5      42      17
+
+=== Request r0 @ t=256 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     256       2      59      22
+[01]    mem  yes      0     252       0      42      13
+[02]    mem  yes      1     253       1      46      16
+[03]    mem  yes      3     251       5      42      17
+
+=== Request w0 @ t=257 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     257       2      59      23
+[01]    mem  yes      0     252       0      42      13
+[02]    mem  yes      1     253       1      46      16
+[03]    mem  yes      3     251       5      42      17
+
+=== Request w1 @ t=258 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     257       2      59      23
+[01]    mem  yes      0     258       0      42      14
+[02]    mem  yes      1     253       1      46      16
+[03]    mem  yes      3     251       5      42      17
+
+=== Request r0 @ t=259 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     259       2      60      23
+[01]    mem  yes      0     258       0      42      14
+[02]    mem  yes      1     253       1      46      16
+[03]    mem  yes      3     251       5      42      17
+
+=== Request r1 @ t=260 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     259       2      60      23
+[01]    mem  yes      0     260       0      43      14
+[02]    mem  yes      1     253       1      46      16
+[03]    mem  yes      3     251       5      42      17
+
+=== Request r1 @ t=261 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     259       2      60      23
+[01]    mem  yes      0     261       0      44      14
+[02]    mem  yes      1     253       1      46      16
+[03]    mem  yes      3     251       5      42      17
+
+=== Request r3 @ t=262 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     259       2      60      23
+[01]    mem  yes      0     261       0      44      14
+[02]    mem  yes      1     253       1      46      16
+[03]    mem  yes      3     262       5      43      17
+
+=== Request r3 @ t=263 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     259       2      60      23
+[01]    mem  yes      0     261       0      44      14
+[02]    mem  yes      1     253       1      46      16
+[03]    mem  yes      3     263       5      44      17
+
+=== Request r3 @ t=264 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     259       2      60      23
+[01]    mem  yes      0     261       0      44      14
+[02]    mem  yes      1     253       1      46      16
+[03]    mem  yes      3     264       5      45      17
+
+=== Request r3 @ t=265 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     259       2      60      23
+[01]    mem  yes      0     261       0      44      14
+[02]    mem  yes      1     253       1      46      16
+[03]    mem  yes      3     265       5      46      17
+
+=== Request r2 @ t=266 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     259       2      60      23
+[01]    mem  yes      0     261       0      44      14
+[02]    mem  yes      1     266       1      47      16
+[03]    mem  yes      3     265       5      46      17
+
+=== Request w2 @ t=267 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     259       2      60      23
+[01]    mem  yes      0     261       0      44      14
+[02]    mem  yes      1     267       1      47      17
+[03]    mem  yes      3     265       5      46      17
+
+=== Request w3 @ t=268 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     259       2      60      23
+[01]    mem  yes      0     261       0      44      14
+[02]    mem  yes      1     267       1      47      17
+[03]    mem  yes      3     268       5      46      18
+
+=== Request r0 @ t=269 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     269       2      61      23
+[01]    mem  yes      0     261       0      44      14
+[02]    mem  yes      1     267       1      47      17
+[03]    mem  yes      3     268       5      46      18
+
+=== Request r1 @ t=270 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     269       2      61      23
+[01]    mem  yes      0     270       0      45      14
+[02]    mem  yes      1     267       1      47      17
+[03]    mem  yes      3     268       5      46      18
+
+=== Request w1 @ t=271 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     269       2      61      23
+[01]    mem  yes      0     271       0      45      15
+[02]    mem  yes      1     267       1      47      17
+[03]    mem  yes      3     268       5      46      18
+
+=== Request w2 @ t=272 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     269       2      61      23
+[01]    mem  yes      0     271       0      45      15
+[02]    mem  yes      1     272       1      47      18
+[03]    mem  yes      3     268       5      46      18
+
+=== Request r1 @ t=273 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     269       2      61      23
+[01]    mem  yes      0     273       0      46      15
+[02]    mem  yes      1     272       1      47      18
+[03]    mem  yes      3     268       5      46      18
+
+=== Request r2 @ t=274 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     269       2      61      23
+[01]    mem  yes      0     273       0      46      15
+[02]    mem  yes      1     274       1      48      18
+[03]    mem  yes      3     268       5      46      18
+
+=== Request r3 @ t=275 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     269       2      61      23
+[01]    mem  yes      0     273       0      46      15
+[02]    mem  yes      1     274       1      48      18
+[03]    mem  yes      3     275       5      47      18
+
+=== Request r2 @ t=276 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     269       2      61      23
+[01]    mem  yes      0     273       0      46      15
+[02]    mem  yes      1     276       1      49      18
+[03]    mem  yes      3     275       5      47      18
+
+=== Request r3 @ t=277 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     269       2      61      23
+[01]    mem  yes      0     273       0      46      15
+[02]    mem  yes      1     276       1      49      18
+[03]    mem  yes      3     277       5      48      18
+
+=== Request r2 @ t=278 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     269       2      61      23
+[01]    mem  yes      0     273       0      46      15
+[02]    mem  yes      1     278       1      50      18
+[03]    mem  yes      3     277       5      48      18
+
+=== Request r3 @ t=279 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     269       2      61      23
+[01]    mem  yes      0     273       0      46      15
+[02]    mem  yes      1     278       1      50      18
+[03]    mem  yes      3     279       5      49      18
+
+=== Request w3 @ t=280 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     269       2      61      23
+[01]    mem  yes      0     273       0      46      15
+[02]    mem  yes      1     278       1      50      18
+[03]    mem  yes      3     280       5      49      19
+
+=== Request r2 @ t=281 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     269       2      61      23
+[01]    mem  yes      0     273       0      46      15
+[02]    mem  yes      1     281       1      51      18
+[03]    mem  yes      3     280       5      49      19
+
+=== Request r3 @ t=282 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     269       2      61      23
+[01]    mem  yes      0     273       0      46      15
+[02]    mem  yes      1     281       1      51      18
+[03]    mem  yes      3     282       5      50      19
+
+=== Request r3 @ t=283 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     269       2      61      23
+[01]    mem  yes      0     273       0      46      15
+[02]    mem  yes      1     281       1      51      18
+[03]    mem  yes      3     283       5      51      19
+
+=== Request r1 @ t=284 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     269       2      61      23
+[01]    mem  yes      0     284       0      47      15
+[02]    mem  yes      1     281       1      51      18
+[03]    mem  yes      3     283       5      51      19
+
+=== Request w1 @ t=285 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     269       2      61      23
+[01]    mem  yes      0     285       0      47      16
+[02]    mem  yes      1     281       1      51      18
+[03]    mem  yes      3     283       5      51      19
+
+=== Request r0 @ t=286 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     286       2      62      23
+[01]    mem  yes      0     285       0      47      16
+[02]    mem  yes      1     281       1      51      18
+[03]    mem  yes      3     283       5      51      19
+
+=== Request r2 @ t=287 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     286       2      62      23
+[01]    mem  yes      0     285       0      47      16
+[02]    mem  yes      1     287       1      52      18
+[03]    mem  yes      3     283       5      51      19
+
+=== Request r2 @ t=288 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     286       2      62      23
+[01]    mem  yes      0     285       0      47      16
+[02]    mem  yes      1     288       1      53      18
+[03]    mem  yes      3     283       5      51      19
+
+=== Request r2 @ t=289 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     286       2      62      23
+[01]    mem  yes      0     285       0      47      16
+[02]    mem  yes      1     289       1      54      18
+[03]    mem  yes      3     283       5      51      19
+
+=== Request w3 @ t=290 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     286       2      62      23
+[01]    mem  yes      0     285       0      47      16
+[02]    mem  yes      1     289       1      54      18
+[03]    mem  yes      3     290       5      51      20
+
+=== Request r1 @ t=291 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     286       2      62      23
+[01]    mem  yes      0     291       0      48      16
+[02]    mem  yes      1     289       1      54      18
+[03]    mem  yes      3     290       5      51      20
+
+=== Request r1 @ t=292 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     286       2      62      23
+[01]    mem  yes      0     292       0      49      16
+[02]    mem  yes      1     289       1      54      18
+[03]    mem  yes      3     290       5      51      20
+
+=== Request r1 @ t=293 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     286       2      62      23
+[01]    mem  yes      0     293       0      50      16
+[02]    mem  yes      1     289       1      54      18
+[03]    mem  yes      3     290       5      51      20
+
+=== Request r2 @ t=294 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     286       2      62      23
+[01]    mem  yes      0     293       0      50      16
+[02]    mem  yes      1     294       1      55      18
+[03]    mem  yes      3     290       5      51      20
+
+=== Request r3 @ t=295 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     286       2      62      23
+[01]    mem  yes      0     293       0      50      16
+[02]    mem  yes      1     294       1      55      18
+[03]    mem  yes      3     295       5      52      20
+
+=== Request r0 @ t=296 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     296       2      63      23
+[01]    mem  yes      0     293       0      50      16
+[02]    mem  yes      1     294       1      55      18
+[03]    mem  yes      3     295       5      52      20
+
+=== Request r3 @ t=297 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     296       2      63      23
+[01]    mem  yes      0     293       0      50      16
+[02]    mem  yes      1     294       1      55      18
+[03]    mem  yes      3     297       5      53      20
+
+=== Request r1 @ t=298 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     296       2      63      23
+[01]    mem  yes      0     298       0      51      16
+[02]    mem  yes      1     294       1      55      18
+[03]    mem  yes      3     297       5      53      20
+
+=== Request r1 @ t=299 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     296       2      63      23
+[01]    mem  yes      0     299       0      52      16
+[02]    mem  yes      1     294       1      55      18
+[03]    mem  yes      3     297       5      53      20
+
+=== Request r2 @ t=300 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     296       2      63      23
+[01]    mem  yes      0     299       0      52      16
+[02]    mem  yes      1     300       1      56      18
+[03]    mem  yes      3     297       5      53      20
+
+=== Request r2 @ t=301 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     296       2      63      23
+[01]    mem  yes      0     299       0      52      16
+[02]    mem  yes      1     301       1      57      18
+[03]    mem  yes      3     297       5      53      20
+
+=== Request w2 @ t=302 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     296       2      63      23
+[01]    mem  yes      0     299       0      52      16
+[02]    mem  yes      1     302       1      57      19
+[03]    mem  yes      3     297       5      53      20
+
+=== Request r1 @ t=303 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     296       2      63      23
+[01]    mem  yes      0     303       0      53      16
+[02]    mem  yes      1     302       1      57      19
+[03]    mem  yes      3     297       5      53      20
+
+=== Request w0 @ t=304 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     304       2      63      24
+[01]    mem  yes      0     303       0      53      16
+[02]    mem  yes      1     302       1      57      19
+[03]    mem  yes      3     297       5      53      20
+
+=== Request w2 @ t=305 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     304       2      63      24
+[01]    mem  yes      0     303       0      53      16
+[02]    mem  yes      1     305       1      57      20
+[03]    mem  yes      3     297       5      53      20
+
+=== Request w3 @ t=306 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     304       2      63      24
+[01]    mem  yes      0     303       0      53      16
+[02]    mem  yes      1     305       1      57      20
+[03]    mem  yes      3     306       5      53      21
+
+=== Request w2 @ t=307 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     304       2      63      24
+[01]    mem  yes      0     303       0      53      16
+[02]    mem  yes      1     307       1      57      21
+[03]    mem  yes      3     306       5      53      21
+
+=== Request r2 @ t=308 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     304       2      63      24
+[01]    mem  yes      0     303       0      53      16
+[02]    mem  yes      1     308       1      58      21
+[03]    mem  yes      3     306       5      53      21
+
+=== Request w3 @ t=309 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     304       2      63      24
+[01]    mem  yes      0     303       0      53      16
+[02]    mem  yes      1     308       1      58      21
+[03]    mem  yes      3     309       5      53      22
+
+=== Request r2 @ t=310 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     304       2      63      24
+[01]    mem  yes      0     303       0      53      16
+[02]    mem  yes      1     310       1      59      21
+[03]    mem  yes      3     309       5      53      22
+
+=== Request r1 @ t=311 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     304       2      63      24
+[01]    mem  yes      0     311       0      54      16
+[02]    mem  yes      1     310       1      59      21
+[03]    mem  yes      3     309       5      53      22
+
+=== Request w0 @ t=312 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     312       2      63      25
+[01]    mem  yes      0     311       0      54      16
+[02]    mem  yes      1     310       1      59      21
+[03]    mem  yes      3     309       5      53      22
+
+=== Request r0 @ t=313 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     313       2      64      25
+[01]    mem  yes      0     311       0      54      16
+[02]    mem  yes      1     310       1      59      21
+[03]    mem  yes      3     309       5      53      22
+
+=== Request r2 @ t=314 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     313       2      64      25
+[01]    mem  yes      0     311       0      54      16
+[02]    mem  yes      1     314       1      60      21
+[03]    mem  yes      3     309       5      53      22
+
+=== Request w3 @ t=315 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     313       2      64      25
+[01]    mem  yes      0     311       0      54      16
+[02]    mem  yes      1     314       1      60      21
+[03]    mem  yes      3     315       5      53      23
+
+=== Request w3 @ t=316 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     313       2      64      25
+[01]    mem  yes      0     311       0      54      16
+[02]    mem  yes      1     314       1      60      21
+[03]    mem  yes      3     316       5      53      24
+
+=== Request r3 @ t=317 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     313       2      64      25
+[01]    mem  yes      0     311       0      54      16
+[02]    mem  yes      1     314       1      60      21
+[03]    mem  yes      3     317       5      54      24
+
+=== Request r3 @ t=318 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     313       2      64      25
+[01]    mem  yes      0     311       0      54      16
+[02]    mem  yes      1     314       1      60      21
+[03]    mem  yes      3     318       5      55      24
+
+=== Request r3 @ t=319 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     313       2      64      25
+[01]    mem  yes      0     311       0      54      16
+[02]    mem  yes      1     314       1      60      21
+[03]    mem  yes      3     319       5      56      24
+
+=== Request w2 @ t=320 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     313       2      64      25
+[01]    mem  yes      0     311       0      54      16
+[02]    mem  yes      1     320       1      60      22
+[03]    mem  yes      3     319       5      56      24
+
+=== Request r2 @ t=321 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     313       2      64      25
+[01]    mem  yes      0     311       0      54      16
+[02]    mem  yes      1     321       1      61      22
+[03]    mem  yes      3     319       5      56      24
+
+=== Request r3 @ t=322 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     313       2      64      25
+[01]    mem  yes      0     311       0      54      16
+[02]    mem  yes      1     321       1      61      22
+[03]    mem  yes      3     322       5      57      24
+
+=== Request w1 @ t=323 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     313       2      64      25
+[01]    mem  yes      0     323       0      54      17
+[02]    mem  yes      1     321       1      61      22
+[03]    mem  yes      3     322       5      57      24
+
+=== Request r1 @ t=324 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     313       2      64      25
+[01]    mem  yes      0     324       0      55      17
+[02]    mem  yes      1     321       1      61      22
+[03]    mem  yes      3     322       5      57      24
+
+=== Request r2 @ t=325 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     313       2      64      25
+[01]    mem  yes      0     324       0      55      17
+[02]    mem  yes      1     325       1      62      22
+[03]    mem  yes      3     322       5      57      24
+
+=== Request r3 @ t=326 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     313       2      64      25
+[01]    mem  yes      0     324       0      55      17
+[02]    mem  yes      1     325       1      62      22
+[03]    mem  yes      3     326       5      58      24
+
+=== Request r1 @ t=327 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     313       2      64      25
+[01]    mem  yes      0     327       0      56      17
+[02]    mem  yes      1     325       1      62      22
+[03]    mem  yes      3     326       5      58      24
+
+=== Request w0 @ t=328 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     328       2      64      26
+[01]    mem  yes      0     327       0      56      17
+[02]    mem  yes      1     325       1      62      22
+[03]    mem  yes      3     326       5      58      24
+
+=== Request r0 @ t=329 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     329       2      65      26
+[01]    mem  yes      0     327       0      56      17
+[02]    mem  yes      1     325       1      62      22
+[03]    mem  yes      3     326       5      58      24
+
+=== Request r0 @ t=330 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     330       2      66      26
+[01]    mem  yes      0     327       0      56      17
+[02]    mem  yes      1     325       1      62      22
+[03]    mem  yes      3     326       5      58      24
+
+=== Request r3 @ t=331 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     330       2      66      26
+[01]    mem  yes      0     327       0      56      17
+[02]    mem  yes      1     325       1      62      22
+[03]    mem  yes      3     331       5      59      24
+
+=== Request w3 @ t=332 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     330       2      66      26
+[01]    mem  yes      0     327       0      56      17
+[02]    mem  yes      1     325       1      62      22
+[03]    mem  yes      3     332       5      59      25
+
+=== Request r2 @ t=333 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     330       2      66      26
+[01]    mem  yes      0     327       0      56      17
+[02]    mem  yes      1     333       1      63      22
+[03]    mem  yes      3     332       5      59      25
+
+=== Request w0 @ t=334 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     334       2      66      27
+[01]    mem  yes      0     327       0      56      17
+[02]    mem  yes      1     333       1      63      22
+[03]    mem  yes      3     332       5      59      25
+
+=== Request r0 @ t=335 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     335       2      67      27
+[01]    mem  yes      0     327       0      56      17
+[02]    mem  yes      1     333       1      63      22
+[03]    mem  yes      3     332       5      59      25
+
+=== Request r1 @ t=336 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     335       2      67      27
+[01]    mem  yes      0     336       0      57      17
+[02]    mem  yes      1     333       1      63      22
+[03]    mem  yes      3     332       5      59      25
+
+=== Request w0 @ t=337 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     337       2      67      28
+[01]    mem  yes      0     336       0      57      17
+[02]    mem  yes      1     333       1      63      22
+[03]    mem  yes      3     332       5      59      25
+
+=== Request r2 @ t=338 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     337       2      67      28
+[01]    mem  yes      0     336       0      57      17
+[02]    mem  yes      1     338       1      64      22
+[03]    mem  yes      3     332       5      59      25
+
+=== Request r3 @ t=339 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     337       2      67      28
+[01]    mem  yes      0     336       0      57      17
+[02]    mem  yes      1     338       1      64      22
+[03]    mem  yes      3     339       5      60      25
+
+=== Request r3 @ t=340 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     337       2      67      28
+[01]    mem  yes      0     336       0      57      17
+[02]    mem  yes      1     338       1      64      22
+[03]    mem  yes      3     340       5      61      25
+
+=== Request w3 @ t=341 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     337       2      67      28
+[01]    mem  yes      0     336       0      57      17
+[02]    mem  yes      1     338       1      64      22
+[03]    mem  yes      3     341       5      61      26
+
+=== Request w2 @ t=342 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     337       2      67      28
+[01]    mem  yes      0     336       0      57      17
+[02]    mem  yes      1     342       1      64      23
+[03]    mem  yes      3     341       5      61      26
+
+=== Request r2 @ t=343 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     337       2      67      28
+[01]    mem  yes      0     336       0      57      17
+[02]    mem  yes      1     343       1      65      23
+[03]    mem  yes      3     341       5      61      26
+
+=== Request r2 @ t=344 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     337       2      67      28
+[01]    mem  yes      0     336       0      57      17
+[02]    mem  yes      1     344       1      66      23
+[03]    mem  yes      3     341       5      61      26
+
+=== Request w3 @ t=345 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     337       2      67      28
+[01]    mem  yes      0     336       0      57      17
+[02]    mem  yes      1     344       1      66      23
+[03]    mem  yes      3     345       5      61      27
+
+=== Request r2 @ t=346 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     337       2      67      28
+[01]    mem  yes      0     336       0      57      17
+[02]    mem  yes      1     346       1      67      23
+[03]    mem  yes      3     345       5      61      27
+
+=== Request w2 @ t=347 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     337       2      67      28
+[01]    mem  yes      0     336       0      57      17
+[02]    mem  yes      1     347       1      67      24
+[03]    mem  yes      3     345       5      61      27
+
+=== Request r2 @ t=348 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     337       2      67      28
+[01]    mem  yes      0     336       0      57      17
+[02]    mem  yes      1     348       1      68      24
+[03]    mem  yes      3     345       5      61      27
+
+=== Request r2 @ t=349 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     337       2      67      28
+[01]    mem  yes      0     336       0      57      17
+[02]    mem  yes      1     349       1      69      24
+[03]    mem  yes      3     345       5      61      27
+
+=== Request w3 @ t=350 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     337       2      67      28
+[01]    mem  yes      0     336       0      57      17
+[02]    mem  yes      1     349       1      69      24
+[03]    mem  yes      3     350       5      61      28
+
+=== Request r0 @ t=351 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     351       2      68      28
+[01]    mem  yes      0     336       0      57      17
+[02]    mem  yes      1     349       1      69      24
+[03]    mem  yes      3     350       5      61      28
+
+=== Request w0 @ t=352 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     352       2      68      29
+[01]    mem  yes      0     336       0      57      17
+[02]    mem  yes      1     349       1      69      24
+[03]    mem  yes      3     350       5      61      28
+
+=== Request w0 @ t=353 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     353       2      68      30
+[01]    mem  yes      0     336       0      57      17
+[02]    mem  yes      1     349       1      69      24
+[03]    mem  yes      3     350       5      61      28
+
+=== Request r0 @ t=354 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     354       2      69      30
+[01]    mem  yes      0     336       0      57      17
+[02]    mem  yes      1     349       1      69      24
+[03]    mem  yes      3     350       5      61      28
+
+=== Request r1 @ t=355 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     354       2      69      30
+[01]    mem  yes      0     355       0      58      17
+[02]    mem  yes      1     349       1      69      24
+[03]    mem  yes      3     350       5      61      28
+
+=== Request r3 @ t=356 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     354       2      69      30
+[01]    mem  yes      0     355       0      58      17
+[02]    mem  yes      1     349       1      69      24
+[03]    mem  yes      3     356       5      62      28
+
+=== Request w3 @ t=357 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     354       2      69      30
+[01]    mem  yes      0     355       0      58      17
+[02]    mem  yes      1     349       1      69      24
+[03]    mem  yes      3     357       5      62      29
+
+=== Request r2 @ t=358 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     354       2      69      30
+[01]    mem  yes      0     355       0      58      17
+[02]    mem  yes      1     358       1      70      24
+[03]    mem  yes      3     357       5      62      29
+
+=== Request r3 @ t=359 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     354       2      69      30
+[01]    mem  yes      0     355       0      58      17
+[02]    mem  yes      1     358       1      70      24
+[03]    mem  yes      3     359       5      63      29
+
+=== Request w3 @ t=360 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     354       2      69      30
+[01]    mem  yes      0     355       0      58      17
+[02]    mem  yes      1     358       1      70      24
+[03]    mem  yes      3     360       5      63      30
+
+=== Request w3 @ t=361 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     354       2      69      30
+[01]    mem  yes      0     355       0      58      17
+[02]    mem  yes      1     358       1      70      24
+[03]    mem  yes      3     361       5      63      31
+
+=== Request w3 @ t=362 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     354       2      69      30
+[01]    mem  yes      0     355       0      58      17
+[02]    mem  yes      1     358       1      70      24
+[03]    mem  yes      3     362       5      63      32
+
+=== Request w2 @ t=363 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     354       2      69      30
+[01]    mem  yes      0     355       0      58      17
+[02]    mem  yes      1     363       1      70      25
+[03]    mem  yes      3     362       5      63      32
+
+=== Request r2 @ t=364 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     354       2      69      30
+[01]    mem  yes      0     355       0      58      17
+[02]    mem  yes      1     364       1      71      25
+[03]    mem  yes      3     362       5      63      32
+
+=== Request w3 @ t=365 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     354       2      69      30
+[01]    mem  yes      0     355       0      58      17
+[02]    mem  yes      1     364       1      71      25
+[03]    mem  yes      3     365       5      63      33
+
+=== Request r0 @ t=366 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     366       2      70      30
+[01]    mem  yes      0     355       0      58      17
+[02]    mem  yes      1     364       1      71      25
+[03]    mem  yes      3     365       5      63      33
+
+=== Request w0 @ t=367 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     367       2      70      31
+[01]    mem  yes      0     355       0      58      17
+[02]    mem  yes      1     364       1      71      25
+[03]    mem  yes      3     365       5      63      33
+
+=== Request r3 @ t=368 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     367       2      70      31
+[01]    mem  yes      0     355       0      58      17
+[02]    mem  yes      1     364       1      71      25
+[03]    mem  yes      3     368       5      64      33
+
+=== Request r3 @ t=369 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     367       2      70      31
+[01]    mem  yes      0     355       0      58      17
+[02]    mem  yes      1     364       1      71      25
+[03]    mem  yes      3     369       5      65      33
+
+=== Request r3 @ t=370 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     367       2      70      31
+[01]    mem  yes      0     355       0      58      17
+[02]    mem  yes      1     364       1      71      25
+[03]    mem  yes      3     370       5      66      33
+
+=== Request r3 @ t=371 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     367       2      70      31
+[01]    mem  yes      0     355       0      58      17
+[02]    mem  yes      1     364       1      71      25
+[03]    mem  yes      3     371       5      67      33
+
+=== Request r2 @ t=372 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     367       2      70      31
+[01]    mem  yes      0     355       0      58      17
+[02]    mem  yes      1     372       1      72      25
+[03]    mem  yes      3     371       5      67      33
+
+=== Request w2 @ t=373 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     367       2      70      31
+[01]    mem  yes      0     355       0      58      17
+[02]    mem  yes      1     373       1      72      26
+[03]    mem  yes      3     371       5      67      33
+
+=== Request r1 @ t=374 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     367       2      70      31
+[01]    mem  yes      0     374       0      59      17
+[02]    mem  yes      1     373       1      72      26
+[03]    mem  yes      3     371       5      67      33
+
+=== Request r1 @ t=375 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     367       2      70      31
+[01]    mem  yes      0     375       0      60      17
+[02]    mem  yes      1     373       1      72      26
+[03]    mem  yes      3     371       5      67      33
+
+=== Request r2 @ t=376 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     367       2      70      31
+[01]    mem  yes      0     375       0      60      17
+[02]    mem  yes      1     376       1      73      26
+[03]    mem  yes      3     371       5      67      33
+
+=== Request r2 @ t=377 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     367       2      70      31
+[01]    mem  yes      0     375       0      60      17
+[02]    mem  yes      1     377       1      74      26
+[03]    mem  yes      3     371       5      67      33
+
+=== Request r2 @ t=378 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     367       2      70      31
+[01]    mem  yes      0     375       0      60      17
+[02]    mem  yes      1     378       1      75      26
+[03]    mem  yes      3     371       5      67      33
+
+=== Request r3 @ t=379 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     367       2      70      31
+[01]    mem  yes      0     375       0      60      17
+[02]    mem  yes      1     378       1      75      26
+[03]    mem  yes      3     379       5      68      33
+
+=== Request r3 @ t=380 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     367       2      70      31
+[01]    mem  yes      0     375       0      60      17
+[02]    mem  yes      1     378       1      75      26
+[03]    mem  yes      3     380       5      69      33
+
+=== Request w2 @ t=381 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     367       2      70      31
+[01]    mem  yes      0     375       0      60      17
+[02]    mem  yes      1     381       1      75      27
+[03]    mem  yes      3     380       5      69      33
+
+=== Request r2 @ t=382 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     367       2      70      31
+[01]    mem  yes      0     375       0      60      17
+[02]    mem  yes      1     382       1      76      27
+[03]    mem  yes      3     380       5      69      33
+
+=== Request r2 @ t=383 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     367       2      70      31
+[01]    mem  yes      0     375       0      60      17
+[02]    mem  yes      1     383       1      77      27
+[03]    mem  yes      3     380       5      69      33
+
+=== Request r2 @ t=384 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     367       2      70      31
+[01]    mem  yes      0     375       0      60      17
+[02]    mem  yes      1     384       1      78      27
+[03]    mem  yes      3     380       5      69      33
+
+=== Request r0 @ t=385 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     385       2      71      31
+[01]    mem  yes      0     375       0      60      17
+[02]    mem  yes      1     384       1      78      27
+[03]    mem  yes      3     380       5      69      33
+
+=== Request w1 @ t=386 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     385       2      71      31
+[01]    mem  yes      0     386       0      60      18
+[02]    mem  yes      1     384       1      78      27
+[03]    mem  yes      3     380       5      69      33
+
+=== Request r2 @ t=387 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     385       2      71      31
+[01]    mem  yes      0     386       0      60      18
+[02]    mem  yes      1     387       1      79      27
+[03]    mem  yes      3     380       5      69      33
+
+=== Request w1 @ t=388 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     385       2      71      31
+[01]    mem  yes      0     388       0      60      19
+[02]    mem  yes      1     387       1      79      27
+[03]    mem  yes      3     380       5      69      33
+
+=== Request r2 @ t=389 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     385       2      71      31
+[01]    mem  yes      0     388       0      60      19
+[02]    mem  yes      1     389       1      80      27
+[03]    mem  yes      3     380       5      69      33
+
+=== Request r0 @ t=390 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     390       2      72      31
+[01]    mem  yes      0     388       0      60      19
+[02]    mem  yes      1     389       1      80      27
+[03]    mem  yes      3     380       5      69      33
+
+=== Request r0 @ t=391 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     391       2      73      31
+[01]    mem  yes      0     388       0      60      19
+[02]    mem  yes      1     389       1      80      27
+[03]    mem  yes      3     380       5      69      33
+
+=== Request r0 @ t=392 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     392       2      74      31
+[01]    mem  yes      0     388       0      60      19
+[02]    mem  yes      1     389       1      80      27
+[03]    mem  yes      3     380       5      69      33
+
+=== Request r1 @ t=393 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     392       2      74      31
+[01]    mem  yes      0     393       0      61      19
+[02]    mem  yes      1     389       1      80      27
+[03]    mem  yes      3     380       5      69      33
+
+=== Request r1 @ t=394 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     392       2      74      31
+[01]    mem  yes      0     394       0      62      19
+[02]    mem  yes      1     389       1      80      27
+[03]    mem  yes      3     380       5      69      33
+
+=== Request r0 @ t=395 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     395       2      75      31
+[01]    mem  yes      0     394       0      62      19
+[02]    mem  yes      1     389       1      80      27
+[03]    mem  yes      3     380       5      69      33
+
+=== Request r3 @ t=396 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     395       2      75      31
+[01]    mem  yes      0     394       0      62      19
+[02]    mem  yes      1     389       1      80      27
+[03]    mem  yes      3     396       5      70      33
+
+=== Request w2 @ t=397 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     395       2      75      31
+[01]    mem  yes      0     394       0      62      19
+[02]    mem  yes      1     397       1      80      28
+[03]    mem  yes      3     396       5      70      33
+
+=== Request w3 @ t=398 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     395       2      75      31
+[01]    mem  yes      0     394       0      62      19
+[02]    mem  yes      1     397       1      80      28
+[03]    mem  yes      3     398       5      70      34
+
+=== Request r2 @ t=399 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     395       2      75      31
+[01]    mem  yes      0     394       0      62      19
+[02]    mem  yes      1     399       1      81      28
+[03]    mem  yes      3     398       5      70      34
+
+=== Request w1 @ t=400 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     395       2      75      31
+[01]    mem  yes      0     400       0      62      20
+[02]    mem  yes      1     399       1      81      28
+[03]    mem  yes      3     398       5      70      34
+
+=== Request r0 @ t=401 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     401       2      76      31
+[01]    mem  yes      0     400       0      62      20
+[02]    mem  yes      1     399       1      81      28
+[03]    mem  yes      3     398       5      70      34
+
+=== Request w0 @ t=402 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     402       2      76      32
+[01]    mem  yes      0     400       0      62      20
+[02]    mem  yes      1     399       1      81      28
+[03]    mem  yes      3     398       5      70      34
+
+=== Request w0 @ t=403 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     403       2      76      33
+[01]    mem  yes      0     400       0      62      20
+[02]    mem  yes      1     399       1      81      28
+[03]    mem  yes      3     398       5      70      34
+
+=== Request r0 @ t=404 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     404       2      77      33
+[01]    mem  yes      0     400       0      62      20
+[02]    mem  yes      1     399       1      81      28
+[03]    mem  yes      3     398       5      70      34
+
+=== Request w0 @ t=405 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     405       2      77      34
+[01]    mem  yes      0     400       0      62      20
+[02]    mem  yes      1     399       1      81      28
+[03]    mem  yes      3     398       5      70      34
+
+=== Request w1 @ t=406 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     405       2      77      34
+[01]    mem  yes      0     406       0      62      21
+[02]    mem  yes      1     399       1      81      28
+[03]    mem  yes      3     398       5      70      34
+
+=== Request r2 @ t=407 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     405       2      77      34
+[01]    mem  yes      0     406       0      62      21
+[02]    mem  yes      1     407       1      82      28
+[03]    mem  yes      3     398       5      70      34
+
+=== Request r3 @ t=408 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     405       2      77      34
+[01]    mem  yes      0     406       0      62      21
+[02]    mem  yes      1     407       1      82      28
+[03]    mem  yes      3     408       5      71      34
+
+=== Request r3 @ t=409 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     405       2      77      34
+[01]    mem  yes      0     406       0      62      21
+[02]    mem  yes      1     407       1      82      28
+[03]    mem  yes      3     409       5      72      34
+
+=== Request r3 @ t=410 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     405       2      77      34
+[01]    mem  yes      0     406       0      62      21
+[02]    mem  yes      1     407       1      82      28
+[03]    mem  yes      3     410       5      73      34
+
+=== Request w1 @ t=411 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     405       2      77      34
+[01]    mem  yes      0     411       0      62      22
+[02]    mem  yes      1     407       1      82      28
+[03]    mem  yes      3     410       5      73      34
+
+=== Request r3 @ t=412 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     405       2      77      34
+[01]    mem  yes      0     411       0      62      22
+[02]    mem  yes      1     407       1      82      28
+[03]    mem  yes      3     412       5      74      34
+
+=== Request w0 @ t=413 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     413       2      77      35
+[01]    mem  yes      0     411       0      62      22
+[02]    mem  yes      1     407       1      82      28
+[03]    mem  yes      3     412       5      74      34
+
+=== Request w0 @ t=414 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     414       2      77      36
+[01]    mem  yes      0     411       0      62      22
+[02]    mem  yes      1     407       1      82      28
+[03]    mem  yes      3     412       5      74      34
+
+=== Request w0 @ t=415 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     415       2      77      37
+[01]    mem  yes      0     411       0      62      22
+[02]    mem  yes      1     407       1      82      28
+[03]    mem  yes      3     412       5      74      34
+
+=== Request r0 @ t=416 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     416       2      78      37
+[01]    mem  yes      0     411       0      62      22
+[02]    mem  yes      1     407       1      82      28
+[03]    mem  yes      3     412       5      74      34
+
+=== Request r1 @ t=417 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     416       2      78      37
+[01]    mem  yes      0     417       0      63      22
+[02]    mem  yes      1     407       1      82      28
+[03]    mem  yes      3     412       5      74      34
+
+=== Request r1 @ t=418 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     416       2      78      37
+[01]    mem  yes      0     418       0      64      22
+[02]    mem  yes      1     407       1      82      28
+[03]    mem  yes      3     412       5      74      34
+
+=== Request w1 @ t=419 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     416       2      78      37
+[01]    mem  yes      0     419       0      64      23
+[02]    mem  yes      1     407       1      82      28
+[03]    mem  yes      3     412       5      74      34
+
+=== Request r3 @ t=420 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     416       2      78      37
+[01]    mem  yes      0     419       0      64      23
+[02]    mem  yes      1     407       1      82      28
+[03]    mem  yes      3     420       5      75      34
+
+=== Request r0 @ t=421 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     421       2      79      37
+[01]    mem  yes      0     419       0      64      23
+[02]    mem  yes      1     407       1      82      28
+[03]    mem  yes      3     420       5      75      34
+
+=== Request r0 @ t=422 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     422       2      80      37
+[01]    mem  yes      0     419       0      64      23
+[02]    mem  yes      1     407       1      82      28
+[03]    mem  yes      3     420       5      75      34
+
+=== Request r1 @ t=423 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     422       2      80      37
+[01]    mem  yes      0     423       0      65      23
+[02]    mem  yes      1     407       1      82      28
+[03]    mem  yes      3     420       5      75      34
+
+=== Request w1 @ t=424 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     422       2      80      37
+[01]    mem  yes      0     424       0      65      24
+[02]    mem  yes      1     407       1      82      28
+[03]    mem  yes      3     420       5      75      34
+
+=== Request r1 @ t=425 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     422       2      80      37
+[01]    mem  yes      0     425       0      66      24
+[02]    mem  yes      1     407       1      82      28
+[03]    mem  yes      3     420       5      75      34
+
+=== Request r0 @ t=426 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     426       2      81      37
+[01]    mem  yes      0     425       0      66      24
+[02]    mem  yes      1     407       1      82      28
+[03]    mem  yes      3     420       5      75      34
+
+=== Request w2 @ t=427 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     426       2      81      37
+[01]    mem  yes      0     425       0      66      24
+[02]    mem  yes      1     427       1      82      29
+[03]    mem  yes      3     420       5      75      34
+
+=== Request r1 @ t=428 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     426       2      81      37
+[01]    mem  yes      0     428       0      67      24
+[02]    mem  yes      1     427       1      82      29
+[03]    mem  yes      3     420       5      75      34
+
+=== Request r3 @ t=429 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     426       2      81      37
+[01]    mem  yes      0     428       0      67      24
+[02]    mem  yes      1     427       1      82      29
+[03]    mem  yes      3     429       5      76      34
+
+=== Request r3 @ t=430 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     426       2      81      37
+[01]    mem  yes      0     428       0      67      24
+[02]    mem  yes      1     427       1      82      29
+[03]    mem  yes      3     430       5      77      34
+
+=== Request w3 @ t=431 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     426       2      81      37
+[01]    mem  yes      0     428       0      67      24
+[02]    mem  yes      1     427       1      82      29
+[03]    mem  yes      3     431       5      77      35
+
+=== Request r3 @ t=432 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     426       2      81      37
+[01]    mem  yes      0     428       0      67      24
+[02]    mem  yes      1     427       1      82      29
+[03]    mem  yes      3     432       5      78      35
+
+=== Request r3 @ t=433 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     426       2      81      37
+[01]    mem  yes      0     428       0      67      24
+[02]    mem  yes      1     427       1      82      29
+[03]    mem  yes      3     433       5      79      35
+
+=== Request r2 @ t=434 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     426       2      81      37
+[01]    mem  yes      0     428       0      67      24
+[02]    mem  yes      1     434       1      83      29
+[03]    mem  yes      3     433       5      79      35
+
+=== Request r3 @ t=435 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     426       2      81      37
+[01]    mem  yes      0     428       0      67      24
+[02]    mem  yes      1     434       1      83      29
+[03]    mem  yes      3     435       5      80      35
+
+=== Request r3 @ t=436 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     426       2      81      37
+[01]    mem  yes      0     428       0      67      24
+[02]    mem  yes      1     434       1      83      29
+[03]    mem  yes      3     436       5      81      35
+
+=== Request r1 @ t=437 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     426       2      81      37
+[01]    mem  yes      0     437       0      68      24
+[02]    mem  yes      1     434       1      83      29
+[03]    mem  yes      3     436       5      81      35
+
+=== Request r1 @ t=438 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     426       2      81      37
+[01]    mem  yes      0     438       0      69      24
+[02]    mem  yes      1     434       1      83      29
+[03]    mem  yes      3     436       5      81      35
+
+=== Request r0 @ t=439 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     439       2      82      37
+[01]    mem  yes      0     438       0      69      24
+[02]    mem  yes      1     434       1      83      29
+[03]    mem  yes      3     436       5      81      35
+
+=== Request r1 @ t=440 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     439       2      82      37
+[01]    mem  yes      0     440       0      70      24
+[02]    mem  yes      1     434       1      83      29
+[03]    mem  yes      3     436       5      81      35
+
+=== Request r1 @ t=441 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     439       2      82      37
+[01]    mem  yes      0     441       0      71      24
+[02]    mem  yes      1     434       1      83      29
+[03]    mem  yes      3     436       5      81      35
+
+=== Request r0 @ t=442 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     442       2      83      37
+[01]    mem  yes      0     441       0      71      24
+[02]    mem  yes      1     434       1      83      29
+[03]    mem  yes      3     436       5      81      35
+
+=== Request r0 @ t=443 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     443       2      84      37
+[01]    mem  yes      0     441       0      71      24
+[02]    mem  yes      1     434       1      83      29
+[03]    mem  yes      3     436       5      81      35
+
+=== Request w0 @ t=444 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     444       2      84      38
+[01]    mem  yes      0     441       0      71      24
+[02]    mem  yes      1     434       1      83      29
+[03]    mem  yes      3     436       5      81      35
+
+=== Request r0 @ t=445 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     445       2      85      38
+[01]    mem  yes      0     441       0      71      24
+[02]    mem  yes      1     434       1      83      29
+[03]    mem  yes      3     436       5      81      35
+
+=== Request w0 @ t=446 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     446       2      85      39
+[01]    mem  yes      0     441       0      71      24
+[02]    mem  yes      1     434       1      83      29
+[03]    mem  yes      3     436       5      81      35
+
+=== Request r0 @ t=447 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     447       2      86      39
+[01]    mem  yes      0     441       0      71      24
+[02]    mem  yes      1     434       1      83      29
+[03]    mem  yes      3     436       5      81      35
+
+=== Request w0 @ t=448 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     448       2      86      40
+[01]    mem  yes      0     441       0      71      24
+[02]    mem  yes      1     434       1      83      29
+[03]    mem  yes      3     436       5      81      35
+
+=== Request r1 @ t=449 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     448       2      86      40
+[01]    mem  yes      0     449       0      72      24
+[02]    mem  yes      1     434       1      83      29
+[03]    mem  yes      3     436       5      81      35
+
+=== Request r2 @ t=450 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     448       2      86      40
+[01]    mem  yes      0     449       0      72      24
+[02]    mem  yes      1     450       1      84      29
+[03]    mem  yes      3     436       5      81      35
+
+=== Request w3 @ t=451 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     448       2      86      40
+[01]    mem  yes      0     449       0      72      24
+[02]    mem  yes      1     450       1      84      29
+[03]    mem  yes      3     451       5      81      36
+
+=== Request r3 @ t=452 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     448       2      86      40
+[01]    mem  yes      0     449       0      72      24
+[02]    mem  yes      1     450       1      84      29
+[03]    mem  yes      3     452       5      82      36
+
+=== Request r2 @ t=453 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     448       2      86      40
+[01]    mem  yes      0     449       0      72      24
+[02]    mem  yes      1     453       1      85      29
+[03]    mem  yes      3     452       5      82      36
+
+=== Request r2 @ t=454 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     448       2      86      40
+[01]    mem  yes      0     449       0      72      24
+[02]    mem  yes      1     454       1      86      29
+[03]    mem  yes      3     452       5      82      36
+
+=== Request r3 @ t=455 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     448       2      86      40
+[01]    mem  yes      0     449       0      72      24
+[02]    mem  yes      1     454       1      86      29
+[03]    mem  yes      3     455       5      83      36
+
+=== Request r3 @ t=456 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     448       2      86      40
+[01]    mem  yes      0     449       0      72      24
+[02]    mem  yes      1     454       1      86      29
+[03]    mem  yes      3     456       5      84      36
+
+=== Request w2 @ t=457 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     448       2      86      40
+[01]    mem  yes      0     449       0      72      24
+[02]    mem  yes      1     457       1      86      30
+[03]    mem  yes      3     456       5      84      36
+
+=== Request r2 @ t=458 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     448       2      86      40
+[01]    mem  yes      0     449       0      72      24
+[02]    mem  yes      1     458       1      87      30
+[03]    mem  yes      3     456       5      84      36
+
+=== Request w1 @ t=459 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     448       2      86      40
+[01]    mem  yes      0     459       0      72      25
+[02]    mem  yes      1     458       1      87      30
+[03]    mem  yes      3     456       5      84      36
+
+=== Request r0 @ t=460 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     460       2      87      40
+[01]    mem  yes      0     459       0      72      25
+[02]    mem  yes      1     458       1      87      30
+[03]    mem  yes      3     456       5      84      36
+
+=== Request r3 @ t=461 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     460       2      87      40
+[01]    mem  yes      0     459       0      72      25
+[02]    mem  yes      1     458       1      87      30
+[03]    mem  yes      3     461       5      85      36
+
+=== Request w3 @ t=462 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     460       2      87      40
+[01]    mem  yes      0     459       0      72      25
+[02]    mem  yes      1     458       1      87      30
+[03]    mem  yes      3     462       5      85      37
+
+=== Request r3 @ t=463 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     460       2      87      40
+[01]    mem  yes      0     459       0      72      25
+[02]    mem  yes      1     458       1      87      30
+[03]    mem  yes      3     463       5      86      37
+
+=== Request r3 @ t=464 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     460       2      87      40
+[01]    mem  yes      0     459       0      72      25
+[02]    mem  yes      1     458       1      87      30
+[03]    mem  yes      3     464       5      87      37
+
+=== Request r2 @ t=465 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     460       2      87      40
+[01]    mem  yes      0     459       0      72      25
+[02]    mem  yes      1     465       1      88      30
+[03]    mem  yes      3     464       5      87      37
+
+=== Request w3 @ t=466 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     460       2      87      40
+[01]    mem  yes      0     459       0      72      25
+[02]    mem  yes      1     465       1      88      30
+[03]    mem  yes      3     466       5      87      38
+
+=== Request r2 @ t=467 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     460       2      87      40
+[01]    mem  yes      0     459       0      72      25
+[02]    mem  yes      1     467       1      89      30
+[03]    mem  yes      3     466       5      87      38
+
+=== Request w3 @ t=468 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     460       2      87      40
+[01]    mem  yes      0     459       0      72      25
+[02]    mem  yes      1     467       1      89      30
+[03]    mem  yes      3     468       5      87      39
+
+=== Request r1 @ t=469 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     460       2      87      40
+[01]    mem  yes      0     469       0      73      25
+[02]    mem  yes      1     467       1      89      30
+[03]    mem  yes      3     468       5      87      39
+
+=== Request w3 @ t=470 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     460       2      87      40
+[01]    mem  yes      0     469       0      73      25
+[02]    mem  yes      1     467       1      89      30
+[03]    mem  yes      3     470       5      87      40
+
+=== Request r3 @ t=471 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     460       2      87      40
+[01]    mem  yes      0     469       0      73      25
+[02]    mem  yes      1     467       1      89      30
+[03]    mem  yes      3     471       5      88      40
+
+=== Request w2 @ t=472 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     460       2      87      40
+[01]    mem  yes      0     469       0      73      25
+[02]    mem  yes      1     472       1      89      31
+[03]    mem  yes      3     471       5      88      40
+
+=== Request r2 @ t=473 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     460       2      87      40
+[01]    mem  yes      0     469       0      73      25
+[02]    mem  yes      1     473       1      90      31
+[03]    mem  yes      3     471       5      88      40
+
+=== Request w2 @ t=474 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     460       2      87      40
+[01]    mem  yes      0     469       0      73      25
+[02]    mem  yes      1     474       1      90      32
+[03]    mem  yes      3     471       5      88      40
+
+=== Request w2 @ t=475 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     460       2      87      40
+[01]    mem  yes      0     469       0      73      25
+[02]    mem  yes      1     475       1      90      33
+[03]    mem  yes      3     471       5      88      40
+
+=== Request r3 @ t=476 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     460       2      87      40
+[01]    mem  yes      0     469       0      73      25
+[02]    mem  yes      1     475       1      90      33
+[03]    mem  yes      3     476       5      89      40
+
+=== Request r3 @ t=477 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     460       2      87      40
+[01]    mem  yes      0     469       0      73      25
+[02]    mem  yes      1     475       1      90      33
+[03]    mem  yes      3     477       5      90      40
+
+=== Request r3 @ t=478 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     460       2      87      40
+[01]    mem  yes      0     469       0      73      25
+[02]    mem  yes      1     475       1      90      33
+[03]    mem  yes      3     478       5      91      40
+
+=== Request r1 @ t=479 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     460       2      87      40
+[01]    mem  yes      0     479       0      74      25
+[02]    mem  yes      1     475       1      90      33
+[03]    mem  yes      3     478       5      91      40
+
+=== Request w1 @ t=480 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     460       2      87      40
+[01]    mem  yes      0     480       0      74      26
+[02]    mem  yes      1     475       1      90      33
+[03]    mem  yes      3     478       5      91      40
+
+=== Request w2 @ t=481 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     460       2      87      40
+[01]    mem  yes      0     480       0      74      26
+[02]    mem  yes      1     481       1      90      34
+[03]    mem  yes      3     478       5      91      40
+
+=== Request r2 @ t=482 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     460       2      87      40
+[01]    mem  yes      0     480       0      74      26
+[02]    mem  yes      1     482       1      91      34
+[03]    mem  yes      3     478       5      91      40
+
+=== Request r2 @ t=483 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     460       2      87      40
+[01]    mem  yes      0     480       0      74      26
+[02]    mem  yes      1     483       1      92      34
+[03]    mem  yes      3     478       5      91      40
+
+=== Request w1 @ t=484 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     460       2      87      40
+[01]    mem  yes      0     484       0      74      27
+[02]    mem  yes      1     483       1      92      34
+[03]    mem  yes      3     478       5      91      40
+
+=== Request w1 @ t=485 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     460       2      87      40
+[01]    mem  yes      0     485       0      74      28
+[02]    mem  yes      1     483       1      92      34
+[03]    mem  yes      3     478       5      91      40
+
+=== Request r3 @ t=486 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     460       2      87      40
+[01]    mem  yes      0     485       0      74      28
+[02]    mem  yes      1     483       1      92      34
+[03]    mem  yes      3     486       5      92      40
+
+=== Request r2 @ t=487 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     460       2      87      40
+[01]    mem  yes      0     485       0      74      28
+[02]    mem  yes      1     487       1      93      34
+[03]    mem  yes      3     486       5      92      40
+
+=== Request r0 @ t=488 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     488       2      88      40
+[01]    mem  yes      0     485       0      74      28
+[02]    mem  yes      1     487       1      93      34
+[03]    mem  yes      3     486       5      92      40
+
+=== Request r0 @ t=489 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     489       2      89      40
+[01]    mem  yes      0     485       0      74      28
+[02]    mem  yes      1     487       1      93      34
+[03]    mem  yes      3     486       5      92      40
+
+=== Request r0 @ t=490 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     490       2      90      40
+[01]    mem  yes      0     485       0      74      28
+[02]    mem  yes      1     487       1      93      34
+[03]    mem  yes      3     486       5      92      40
+
+=== Request r1 @ t=491 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     490       2      90      40
+[01]    mem  yes      0     491       0      75      28
+[02]    mem  yes      1     487       1      93      34
+[03]    mem  yes      3     486       5      92      40
+
+=== Request r2 @ t=492 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     490       2      90      40
+[01]    mem  yes      0     491       0      75      28
+[02]    mem  yes      1     492       1      94      34
+[03]    mem  yes      3     486       5      92      40
+
+=== Request r3 @ t=493 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     490       2      90      40
+[01]    mem  yes      0     491       0      75      28
+[02]    mem  yes      1     492       1      94      34
+[03]    mem  yes      3     493       5      93      40
+
+=== Request r2 @ t=494 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     490       2      90      40
+[01]    mem  yes      0     491       0      75      28
+[02]    mem  yes      1     494       1      95      34
+[03]    mem  yes      3     493       5      93      40
+
+=== Request w2 @ t=495 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     490       2      90      40
+[01]    mem  yes      0     491       0      75      28
+[02]    mem  yes      1     495       1      95      35
+[03]    mem  yes      3     493       5      93      40
+
+=== Request r1 @ t=496 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     490       2      90      40
+[01]    mem  yes      0     496       0      76      28
+[02]    mem  yes      1     495       1      95      35
+[03]    mem  yes      3     493       5      93      40
+
+=== Request r1 @ t=497 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     490       2      90      40
+[01]    mem  yes      0     497       0      77      28
+[02]    mem  yes      1     495       1      95      35
+[03]    mem  yes      3     493       5      93      40
+
+=== Request w0 @ t=498 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     498       2      90      41
+[01]    mem  yes      0     497       0      77      28
+[02]    mem  yes      1     495       1      95      35
+[03]    mem  yes      3     493       5      93      40
+
+=== Request r2 @ t=499 ===
+Page Status Mod?  Frame  Acc(t) Load(t)  #Peeks  #Pokes
+[00]    mem  yes      2     498       2      90      41
+[01]    mem  yes      0     497       0      77      28
+[02]    mem  yes      1     499       1      96      35
+[03]    mem  yes      3     493       5      93      40
+
+=====Summary ====
+Requests:  #peeks: 356,  #pokes: 144,  total: 500
+Paging:    #hits: 496,  #faults: 4,  #loads: 4,  #saves: 0
